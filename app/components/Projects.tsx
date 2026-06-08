@@ -25,7 +25,7 @@ const projects = [
     subtitle: "Promotional Staff & Brand Ambassadors",
     scope: "Supplied and managed a professional team of promotional staff and brand ambassadors briefed to represent Mitre 10 at trade level — one point of contact from sourcing through to event day.",
     talentCategories: ["Brand Ambassadors", "Promotional Staff"],
-    image: null,
+    image: "/CM10 Tradeshow BTS 2016.PNG",
     imagePosition: "object-center",
   },
   {

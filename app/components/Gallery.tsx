@@ -10,7 +10,9 @@ const images = [
   { src: "/Photo 16-9-2022, 7 25 26 pm.jpg", alt: "Backstage", aspect: "w-72" },
   { src: "/Photo 19-9-2022, 9 49 16 am (1).jpg", alt: "Event talent", aspect: "w-56" },
   { src: "/WhatsApp Image 2026-03-27 at 13.37.50 (3).jpeg", alt: "AFC mascot", aspect: "w-48" },
+  { src: "/_MG_9870.jpg", alt: "Event talent", aspect: "w-64" },
   { src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg", alt: "Models backstage", aspect: "w-56" },
+  { src: "/_MG_9971.jpg", alt: "Event talent", aspect: "w-64" },
 ];
 
 export default function Gallery() {
