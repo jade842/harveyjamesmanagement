@@ -1,16 +1,14 @@
 import Image from "next/image";
 
 const eventTypes = [
-  "Sporting Events & Tournaments",
-  "Brand Activations",
-  "Corporate Conferences",
-  "Fashion Events & Runway Shows",
-  "Trade Expos & Exhibitions",
-  "Music Festivals & Concerts",
-  "Race Days & Hospitality",
-  "Product Launches",
-  "Award Ceremonies",
-  "Community & Cultural Events",
+  "Runway Shows & Fashion Weeks",
+  "Backstage & Production Management",
+  "Luxury Private Events",
+  "High-End Brand Experiences",
+  "Personalised Curated Occasions",
+  "VIP Hospitality & Activations",
+  "Exclusive Corporate Experiences",
+  "Bespoke Entertainment Events",
 ];
 
 export default function Events() {
@@ -63,19 +61,19 @@ export default function Events() {
             <div className="inline-flex items-center gap-3 mb-5">
               <div className="h-px w-8 bg-[#D4B680]" />
               <span className="text-[10px] font-medium tracking-[0.4em] text-[#D4B680] uppercase">
-                Events We Serve
+                What We Produce
               </span>
             </div>
             <h2
               className="text-3xl lg:text-4xl font-bold text-[#F4F0E4] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
-              Every Event Type,
+              Fashion. Luxury.
               <br />
-              <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Covered</span>
+              <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Curated.</span>
             </h2>
             <p className="text-[#a89f8c] text-base leading-relaxed mb-8">
-              From large-scale sporting tournaments to intimate curated experiences, we've built our network to serve every event format. Whatever the occasion, we bring the right people to make it work.
+              For select clients we take full ownership — fashion events and backstage production managed end to end, and personalised high-end experiences curated to the finest detail.
             </p>
             <a
               href="#contact"
