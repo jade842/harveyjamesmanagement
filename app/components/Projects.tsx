@@ -35,7 +35,7 @@ const projects = [
     subtitle: "Event Activation & Talent Management",
     scope: "Sourced and managed talent for race day activations and hospitality experiences — hosts, promotional staff and entertainers curated to deliver a premium raceday atmosphere.",
     talentCategories: ["Event Hosts & MCs", "Promotional Staff", "Entertainers", "Brand Ambassadors"],
-    image: "/TRC_Fashion_0009 (1).jpg",
+    image: "/TRC_Fashion_0074.jpg",
     imagePosition: "object-[center_30%]",
   },
 ];

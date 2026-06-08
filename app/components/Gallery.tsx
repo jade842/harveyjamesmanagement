@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const images = [
   { src: "/TRC_Fashion_0009 (1).jpg", alt: "Tasmanian Racing Club", aspect: "w-72" },
+  { src: "/CalHadaway_Riv_HarveyJames_2021 (1) (5).jpg", alt: "Harvey James Management", aspect: "w-64" },
+  { src: "/TRC_Fashion_0082.jpg", alt: "Tasmanian Racing Club", aspect: "w-56" },
+  { src: "/201600703_HarveyJames_01713.jpg", alt: "Harvey James Management", aspect: "w-72" },
+  { src: "/CalHadaway_Riv_HarveyJames_2021 (2) (5).jpg", alt: "Harvey James Management", aspect: "w-48" },
+  { src: "/647 (1).jpg", alt: "Event talent", aspect: "w-56" },
+  { src: "/CalHadaway_Riv_HarveyJames_2021 (3) (3) (1).jpg", alt: "Harvey James Management", aspect: "w-64" },
+  { src: "/715 (4) (1).jpg", alt: "Event talent", aspect: "w-56" },
+  { src: "/201600703_HarveyJames_01818 (1).jpg", alt: "Harvey James Management", aspect: "w-72" },
+  { src: "/CalHadaway_Riv_HarveyJames_2021 (9) (1) (2) (1).jpg", alt: "Harvey James Management", aspect: "w-48" },
   { src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (112 of 147).jpg", alt: "Fashion runway", aspect: "w-56" },
   { src: "/IL03 (1) (2).jpg", alt: "Harvey James Management", aspect: "w-64" },
   { src: "/Lasca New Sonia PORTFOLIO.jpg", alt: "Fashion model", aspect: "w-48" },
