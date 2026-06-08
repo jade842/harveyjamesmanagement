@@ -15,6 +15,11 @@ const testimonials = [
     context: "Perth",
   },
   {
+    quote: "Jade and HJM have been wonderful to me and given me some great opportunities that I'm very grateful for and very excited to continue. HJM are very warm and welcoming and I can't wait to work with them more very soon.",
+    name: "Saul P",
+    context: "Perth",
+  },
+  {
     quote: "Jade is super friendly and has been great with being transparent and informative.",
     name: "Riley N",
     context: "Tasmania",
