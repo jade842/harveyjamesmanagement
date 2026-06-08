@@ -77,7 +77,7 @@ export default function Projects() {
               {/* Text + categories */}
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">
-                  {project.tags.map((tag, i) => (
+                  {(project.tags ?? []).map((tag, i) => (
                     <span
                       key={tag}
                       className={`text-[10px] font-medium tracking-widest uppercase px-2.5 py-0.5 ${
