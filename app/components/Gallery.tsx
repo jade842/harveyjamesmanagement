@@ -55,8 +55,8 @@ const images = [
   { src: "/Solomon Islands Campaign 2016.jpg", alt: "Campaign", aspect: "w-64" },
   { src: "/TRC_Fashion_0074.jpg", alt: "Tasmanian Racing Club", aspect: "w-56" },
   { src: "/WhatsApp Image 2026-03-27 at 13.38.24 (1).jpeg", alt: "AFC", aspect: "w-64" },
-  { src: "/405A4903 (3).jpg", alt: "Jade Harvey-James", aspect: "w-48" },
-  { src: "/Photo 11-8-2023, 1 56 43 pm (1).jpg", alt: "Jade Harvey-James", aspect: "w-56" },
+  { src: "/20260321-05 (1).JPG", alt: "AFC Women's Asian Cup", aspect: "w-64" },
+  { src: "/20260321-11.JPG", alt: "AFC Women's Asian Cup", aspect: "w-56" },
 ];
 
 export default function Gallery() {

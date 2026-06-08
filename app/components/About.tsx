@@ -5,33 +5,24 @@ export default function About() {
     <section id="about" className="py-24 bg-[#F4F0E4] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: headshot + second portrait */}
-          <div className="flex justify-center lg:justify-start gap-3 items-end">
-            <div className="relative w-48 lg:flex-1 max-w-xs">
-              <div className="absolute -top-3 -left-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
+          {/* Left: headshot */}
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative w-72 lg:w-full max-w-sm">
+              <div className="absolute -top-3 -right-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
                 <Image
                   src="/Headshot.jpg"
                   alt="Jade Harvey-James, Founder & Principal of Harvey James Management"
                   fill
                   className="object-cover object-top"
-                  sizes="(max-width: 768px) 192px, 300px"
+                  sizes="(max-width: 768px) 288px, 400px"
                   priority
                 />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#111111]/80 to-transparent px-4 py-4">
+              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#111111]/80 to-transparent px-5 py-5">
                 <p className="text-[#F4F0E4] font-medium text-sm">Jade Harvey-James</p>
                 <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
-            </div>
-            <div className="relative w-36 lg:w-48 shrink-0 overflow-hidden aspect-[3/4] hidden sm:block mb-8">
-              <Image
-                src="/405A4903 (3).jpg"
-                alt="Jade Harvey-James"
-                fill
-                className="object-cover object-top"
-                sizes="192px"
-              />
             </div>
           </div>
 
