@@ -7,7 +7,7 @@ const projects = [
     subtitle: "Fan Zone Talent & Activation",
     scope: "Sourced, contracted and managed a full talent workforce across three Fan Zones in Perth, Sydney and the Gold Coast — cultural performers, MCs, DJs, musicians, promotional staff and mascot performers across the tournament run.",
     talentCategories: ["Cultural Performers", "MCs & Event Hosts", "DJs & Musicians", "Promotional Staff", "Mascot Performers", "Brand Ambassadors"],
-    image: "/WhatsApp Image 2026-03-27 at 13.09.06 (3).jpeg",
+    image: "/WhatsApp Image 2026-03-27 at 13.37.50 (3).jpeg",
     imagePosition: "object-center",
   },
   {
