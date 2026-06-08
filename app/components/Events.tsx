@@ -59,7 +59,7 @@ export default function Events() {
             </div>
             <div className="relative flex-1 overflow-hidden">
               <Image
-                src="/_MG_9971.jpg"
+                src="/Photo 16-9-2022, 7 35 25 pm.jpg"
                 alt="Event services"
                 fill
                 className="object-cover object-center"

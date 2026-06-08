@@ -5,8 +5,8 @@ export default function About() {
     <section id="about" className="py-24 bg-[#F4F0E4] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: headshot */}
-          <div className="flex justify-center lg:justify-start">
+          {/* Left: headshot + event image */}
+          <div className="flex flex-col gap-4 items-center lg:items-start">
             <div className="relative w-72 lg:w-full max-w-sm">
               <div className="absolute -top-3 -right-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
@@ -23,6 +23,16 @@ export default function About() {
                 <p className="text-[#F4F0E4] font-medium text-sm">Jade Harvey-James</p>
                 <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
+            </div>
+            <div className="relative w-72 lg:w-full max-w-sm h-48 overflow-hidden hidden lg:block">
+              <Image
+                src="/Photo 12-6-21, 5 25 04 pm.jpg"
+                alt="Harvey James Management in action"
+                fill
+                className="object-cover object-center"
+                sizes="400px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/40 to-transparent" />
             </div>
           </div>
 
