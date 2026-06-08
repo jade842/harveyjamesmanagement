@@ -27,12 +27,12 @@ export default function Talent() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-bold text-[#111111] mb-6 leading-tight"
+              className="text-3xl lg:text-4xl font-bold text-[#D4B680] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               The Range of Talent
               <br />
-              <span className="text-gold-gradient" style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>We Deliver</span>
+              <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>We Deliver</span>
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
               From headline performers to on-the-ground promotional teams, our talent network spans

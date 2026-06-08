@@ -33,16 +33,16 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] mb-8 text-[#F4F0E4]"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 text-[#D4B680]"
           style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           The Right Talent.
           <br />
-          <span className="text-gold-gradient" style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>Every Event.</span>
+          <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>Every Event.</span>
         </h1>
 
         {/* Subheadline */}
-        <p className="max-w-xl mx-auto text-base sm:text-lg text-[#a89f8c] leading-relaxed mb-12">
+        <p className="max-w-xl mx-auto text-base sm:text-lg text-[#5a5248] leading-relaxed mb-12">
           We source, contract and manage talent across every category — for brand activations,
           sporting events, conferences, corporate experiences and more. Where needed, we also
           deliver select events in full.
@@ -58,7 +58,7 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
+            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm"
           >
             Contact Us
           </a>
@@ -84,7 +84,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#111111] to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#F4F0E4] to-transparent" />
     </section>
   );
 }

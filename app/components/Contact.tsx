@@ -2,7 +2,7 @@ export default function Contact() {
   const email = "jade@harveyjamesmanagement.com.au";
 
   return (
-    <section id="contact" className="py-20 bg-[#111111] relative overflow-hidden">
+    <section id="contact" className="py-20 bg-[#F4F0E4] relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(201,168,76,0.07)_0%,transparent_65%)]" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4B680]/30 to-transparent" />
@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
 
         <h2
-          className="text-4xl lg:text-5xl font-bold text-[#F4F0E4] mb-6 leading-tight"
+          className="text-4xl lg:text-5xl font-bold text-[#D4B680] mb-6 leading-tight"
           style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           Ready to Elevate
@@ -26,13 +26,13 @@ export default function Contact() {
           <span className="text-gold-gradient">Your Next Event?</span>
         </h2>
 
-        <p className="text-[#a89f8c] text-lg leading-relaxed max-w-2xl mx-auto mb-14">
+        <p className="text-[#5a5248] text-lg leading-relaxed max-w-2xl mx-auto mb-14">
           Whether you have a detailed brief or just an idea, we&apos;d love to hear from you.
           Get in touch and let&apos;s start building the talent solution your event deserves.
         </p>
 
         {/* Contact card */}
-        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-[#1a1a1a]/60 backdrop-blur-sm overflow-hidden">
+        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-white/60 backdrop-blur-sm overflow-hidden">
           {/* Gold top accent */}
           <div className="h-0.5 bg-gradient-to-r from-transparent via-[#D4B680] to-transparent" />
 
@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <a
                   href={`mailto:${email}`}
-                  className="text-[#F4F0E4] text-sm font-medium hover:text-[#D4B680] transition-colors duration-200 break-all"
+                  className="text-[#3a3530] text-sm font-medium hover:text-[#D4B680] transition-colors duration-200 break-all"
                 >
                   {email}
                 </a>
@@ -70,12 +70,12 @@ export default function Contact() {
                     Phone
                   </span>
                 </div>
-                <span className="text-[#F4F0E4] text-sm font-medium">Available on enquiry</span>
+                <span className="text-[#3a3530] text-sm font-medium">Available on enquiry</span>
               </div>
             </div>
 
             {/* Location */}
-            <div className="border-t border-white/8 pt-8 mb-10">
+            <div className="border-t border-[#D4B680]/20 pt-8 mb-10">
               <div className="flex items-center justify-center gap-3 mb-3">
                 <div className="w-9 h-9 rounded-sm bg-[#D4B680]/10 flex items-center justify-center">
                   <svg className="w-4 h-4 text-[#D4B680]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ export default function Contact() {
                   Based In / Operating Nationally
                 </span>
               </div>
-              <p className="text-[#a89f8c] text-sm">Australia-wide</p>
+              <p className="text-[#5a5248] text-sm">Australia-wide</p>
             </div>
 
             {/* CTA */}

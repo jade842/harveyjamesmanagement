@@ -28,7 +28,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-[#111111]">
+    <section id="services" className="py-24 bg-[#F4F0E4]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-[1fr_2fr] gap-16 items-start">
 
@@ -41,12 +41,12 @@ export default function Services() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-bold text-[#F4F0E4] mb-6"
+              className="text-3xl lg:text-4xl font-bold text-[#D4B680] mb-6"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Our Services
             </h2>
-            <p className="text-[#a89f8c] text-sm leading-relaxed mb-8">
+            <p className="text-[#5a5248] text-sm leading-relaxed mb-8">
               From a single talent booking to full event production — we scope each engagement to what you actually need.
             </p>
             <a
@@ -58,7 +58,7 @@ export default function Services() {
           </div>
 
           {/* Right: service list */}
-          <div className="divide-y divide-[#F4F0E4]/8">
+          <div className="divide-y divide-[#D4B680]/20">
             {services.map((service) => (
               <div key={service.number} className="group py-7 flex gap-6 items-start">
                 <span
@@ -69,12 +69,12 @@ export default function Services() {
                 </span>
                 <div>
                   <h3
-                    className="text-xl font-bold text-[#F4F0E4] mb-2 group-hover:text-[#D4B680] transition-colors duration-300"
+                    className="text-xl font-bold text-[#3a3530] mb-2 group-hover:text-[#D4B680] transition-colors duration-300"
                     style={{ fontFamily: "var(--font-poppins), sans-serif" }}
                   >
                     {service.title}
                   </h3>
-                  <p className="text-[#a89f8c] text-sm leading-relaxed">{service.description}</p>
+                  <p className="text-[#5a5248] text-sm leading-relaxed">{service.description}</p>
                 </div>
               </div>
             ))}

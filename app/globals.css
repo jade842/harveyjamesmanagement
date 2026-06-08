@@ -25,13 +25,12 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #111111;
-  color-scheme: dark;
+  background-color: #F4F0E4;
 }
 
 body {
-  background-color: #111111;
-  color: #F4F0E4;
+  background-color: #F4F0E4;
+  color: #3a3530;
   font-family: var(--font-poppins, Arial, Helvetica, sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,9 +58,9 @@ body {
 
 .hero-bg {
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(212, 182, 128, 0.07) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(212, 182, 128, 0.04) 0%, transparent 50%),
-    linear-gradient(160deg, #111111 0%, #1a1a1a 40%, #0e0e0e 100%);
+    radial-gradient(ellipse at 20% 50%, rgba(212, 182, 128, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(212, 182, 128, 0.08) 0%, transparent 50%),
+    linear-gradient(160deg, #F4F0E4 0%, #ede9dc 60%, #e8e3d5 100%);
 }
 
 .card-hover {
