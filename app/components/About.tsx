@@ -24,16 +24,6 @@ export default function About() {
                 <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
             </div>
-            <div className="relative w-72 lg:w-full max-w-sm h-48 overflow-hidden hidden lg:block">
-              <Image
-                src="/Photo 12-6-21, 5 25 04 pm.jpg"
-                alt="Harvey James Management in action"
-                fill
-                className="object-cover object-center"
-                sizes="400px"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/40 to-transparent" />
-            </div>
           </div>
 
           {/* Right: text */}
