@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     description:
       "National talent and event services agency delivering curated talent solutions for major events, brand activations and corporate experiences across Australia.",
     type: "website",
+    images: [{ url: "/logo-dark.png", width: 1200, height: 630, alt: "Harvey James Management" }],
   },
 };
 

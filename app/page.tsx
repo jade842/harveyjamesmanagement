@@ -5,6 +5,7 @@ import Services from "@/app/components/Services";
 import Events from "@/app/components/Events";
 import Talent from "@/app/components/Talent";
 import Projects from "@/app/components/Projects";
+import Testimonials from "@/app/components/Testimonials";
 import Gallery from "@/app/components/Gallery";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <Events />
         <Talent />
         <Projects />
+        <Testimonials />
         <Gallery />
         <Contact />
       </main>
