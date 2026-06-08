@@ -13,6 +13,9 @@ const images = [
   { src: "/_MG_9870.jpg", alt: "Event talent", aspect: "w-64" },
   { src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg", alt: "Models backstage", aspect: "w-56" },
   { src: "/_MG_9971.jpg", alt: "Event talent", aspect: "w-64" },
+  { src: "/Jypsea 76.jpg", alt: "Model", aspect: "w-48" },
+  { src: "/Katie81 (5).jpg", alt: "Model", aspect: "w-56" },
+  { src: "/KatieWindow-11 (3).jpg", alt: "Model", aspect: "w-64" },
 ];
 
 export default function Gallery() {
