@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background image — expanded canvas to reduce zoom */}
       <div className="absolute -inset-24">
         <Image
-          src="/385_HiRes.jpg"
+          src="/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg"
           alt=""
           fill
           className="object-cover object-center"
