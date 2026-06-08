@@ -41,7 +41,7 @@ export default function Services() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-bold text-[#D4B680] mb-6"
+              className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-6"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Our Services

@@ -43,7 +43,7 @@ export default function Projects() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-bold text-[#D4B680]"
+            className="text-3xl lg:text-4xl font-bold text-[#1F1F1C]"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Work That Speaks

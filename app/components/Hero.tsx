@@ -33,7 +33,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 text-[#D4B680]"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 text-[#1F1F1C]"
           style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           The Right Talent.
