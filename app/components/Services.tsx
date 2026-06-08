@@ -11,8 +11,8 @@ const services = [
   },
   {
     number: "03",
-    title: "Personalised Retreats",
-    description: "Curated retreat experiences delivered end to end — talent, programming, logistics and on-site management.",
+    title: "Personalised Curated Experiences",
+    description: "Curated bespoke experiences delivered end to end — talent, programming, logistics and on-site management.",
   },
   {
     number: "04",

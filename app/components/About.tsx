@@ -48,7 +48,7 @@ export default function About() {
               We specialise in sourcing, contracting and managing talent across every category — from MCs and cultural performers to promotional staff and brand ambassadors — for major sporting events, brand activations, conferences and corporate experiences nationwide.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
-              For select clients, we go further — taking full ownership of fashion events, backstage production, personalised retreats and complete onsite talent management. Whatever the brief, we bring the people, the process and the precision to make it happen.
+              For select clients, we go further — taking full ownership of fashion events, backstage production, personalised curated experiences and complete onsite talent management. Whatever the brief, we bring the people, the process and the precision to make it happen.
             </p>
             <a
               href="#contact"
