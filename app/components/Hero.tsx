@@ -24,17 +24,6 @@ export default function Hero() {
       {/* Gold accent line left */}
       <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#D4B680]/40 to-transparent hidden lg:block" />
 
-      {/* Right edge portrait accent */}
-      <div className="absolute right-0 top-0 bottom-0 w-64 xl:w-80 hidden lg:block overflow-hidden">
-        <Image
-          src="/Photo 19-9-2022, 9 49 16 am (1).jpg"
-          alt=""
-          fill
-          className="object-cover object-center"
-          sizes="320px"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1F1F1C]/80 via-[#1F1F1C]/20 to-transparent" />
-      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-20 text-center">
         {/* Eyebrow */}
