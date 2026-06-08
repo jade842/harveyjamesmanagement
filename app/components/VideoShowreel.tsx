@@ -25,7 +25,7 @@ export default function VideoShowreel() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div>
             <div className="relative w-full aspect-video overflow-hidden shadow-2xl shadow-[#D4B680]/10 mb-3">
               <iframe
@@ -49,6 +49,18 @@ export default function VideoShowreel() {
               />
             </div>
             <p className="text-[10px] font-medium tracking-widest uppercase text-[#b89660]">Katie E for Spendless Shoes — A/W 2022</p>
+          </div>
+          <div>
+            <div className="relative w-full aspect-video overflow-hidden shadow-2xl shadow-[#D4B680]/10 mb-3">
+              <iframe
+                src="https://www.youtube.com/embed/jOi_oiYx1TY"
+                title="Harvey James Creative Shoot Highlight Reel"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+            <p className="text-[10px] font-medium tracking-widest uppercase text-[#b89660]">Harvey James — Creative Shoot Highlight Reel</p>
           </div>
         </div>
       </div>
