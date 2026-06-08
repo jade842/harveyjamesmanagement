@@ -7,7 +7,8 @@ const projects = [
     subtitle: "Fan Zone Talent & Activation",
     scope: "Sourced, contracted and managed a full talent workforce across three Fan Zones in Perth, Sydney and the Gold Coast — cultural performers, MCs, DJs, musicians, promotional staff and mascot performers across the tournament run.",
     talentCategories: ["Cultural Performers", "MCs & Event Hosts", "DJs & Musicians", "Promotional Staff", "Mascot Performers", "Brand Ambassadors"],
-    image: null,
+    image: "/WhatsApp Image 2026-03-27 at 13.09.06 (3).jpeg",
+    imagePosition: "object-center",
   },
   {
     tags: ["Fashion Event", "Production"],
@@ -16,6 +17,7 @@ const projects = [
     scope: "End-to-end talent procurement and on-the-day coordination for one of Australia's most distinctive regional fashion festivals — models, hosts and promotional staff managed across the full program.",
     talentCategories: ["Fashion Models", "Promotional Staff", "Event Hosts"],
     image: null,
+    imagePosition: "object-center",
   },
   {
     tags: ["Trade Expo", "Brand Activation"],
@@ -24,6 +26,7 @@ const projects = [
     scope: "Supplied and managed a professional team of promotional staff and brand ambassadors briefed to represent Mitre 10 at trade level — one point of contact from sourcing through to event day.",
     talentCategories: ["Brand Ambassadors", "Promotional Staff"],
     image: null,
+    imagePosition: "object-center",
   },
   {
     tags: ["Racing", "Event Activation"],
@@ -31,7 +34,8 @@ const projects = [
     subtitle: "Event Activation & Talent Management",
     scope: "Sourced and managed talent for race day activations and hospitality experiences — hosts, promotional staff and entertainers curated to deliver a premium raceday atmosphere.",
     talentCategories: ["Event Hosts & MCs", "Promotional Staff", "Entertainers", "Brand Ambassadors"],
-    image: null,
+    image: "/TRC_Fashion_0009 (1).jpg",
+    imagePosition: "object-[center_30%]",
   },
 ];
 
@@ -99,7 +103,7 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover object-top"
+                    className={`object-cover ${project.imagePosition}`}
                     sizes="(max-width: 768px) 100vw, 900px"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#F4F0E4]/30 to-transparent" />

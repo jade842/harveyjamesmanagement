@@ -12,9 +12,19 @@ const images = [
     position: "object-center",
   },
   {
+    src: "/WhatsApp Image 2026-03-27 at 13.37.50 (3).jpeg",
+    alt: "AFC mascot",
+    position: "object-center",
+  },
+  {
     src: "/Photo 16-9-2022, 7 25 26 pm.jpg",
     alt: "Behind the scenes",
     position: "object-center",
+  },
+  {
+    src: "/Lasca New Sonia PORTFOLIO.jpg",
+    alt: "Fashion model",
+    position: "object-[center_30%]",
   },
   {
     src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg",
@@ -26,7 +36,7 @@ const images = [
 export default function Gallery() {
   return (
     <section className="bg-[#F4F0E4] pb-4">
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-1">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-1">
         {images.map((img) => (
           <div key={img.src} className="relative h-64 lg:h-80 overflow-hidden group">
             <Image
