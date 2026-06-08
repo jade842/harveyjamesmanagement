@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(201,168,76,1) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,1) 1px, transparent 1px)",
+            "linear-gradient(rgba(212,182,128,1) 1px, transparent 1px), linear-gradient(90deg, rgba(212,182,128,1) 1px, transparent 1px)",
           backgroundSize: "80px 80px",
         }}
       />
@@ -33,7 +33,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] mb-8 text-white"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-white"
           style={{ fontFamily: "var(--font-bodoni), serif" }}
         >
           Talent That
