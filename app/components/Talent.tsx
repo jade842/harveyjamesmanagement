@@ -66,7 +66,7 @@ export default function Talent() {
             {talentTypes.map((talent) => (
               <div
                 key={talent}
-                className="group flex items-center gap-3 px-5 py-3.5 bg-[#F4F0E4] hover:bg-white transition-colors duration-200"
+                className="group flex items-center gap-3 px-5 py-3.5 bg-[#F4F0E4] hover:bg-[#ede9dc] transition-colors duration-200"
               >
                 <div className="w-1 h-1 rounded-full bg-[#D4B680] flex-shrink-0" />
                 <span className="text-[#3a3530] text-sm font-medium tracking-wide">

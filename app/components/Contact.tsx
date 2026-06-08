@@ -32,7 +32,7 @@ export default function Contact() {
         </p>
 
         {/* Contact card */}
-        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-white/60 backdrop-blur-sm overflow-hidden">
+        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-[#ede9dc]/60 backdrop-blur-sm overflow-hidden">
           {/* Gold top accent */}
           <div className="h-0.5 bg-gradient-to-r from-transparent via-[#D4B680] to-transparent" />
 
