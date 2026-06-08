@@ -30,7 +30,15 @@ const projects = [
     imageScale: "scale-[1.8]",
   },
   {
-    tags: ["Racing", "Event Activation"],
+    tags: ["Wedding Expo", "Fashion", "10 Years"],
+    title: "Tasmanian Wedding Expo",
+    subtitle: "Parade Direction, Models & Editorial",
+    scope: "Over 10 years as the creative force behind Tasmania's premier wedding expo — managing and directing a parade of 100+ gowns annually, sourcing and coordinating models across the full show, and producing the annual wedding photoshoot that secured magazine front cover editorial features.",
+    talentCategories: ["Fashion Models", "Parade Direction", "Creative Direction", "Editorial Production", "Promotional Staff"],
+    image: "/IslandMagCover (1).jpg",
+    imagePosition: "object-[center_top]",
+  },
+  {
     title: "Tasmanian Racing Club",
     subtitle: "Event Activation & Talent Management",
     scope: "Managed pre-production of race days including prizes, sponsorship procurement and creative direction — taking full ownership of the event experience from concept through to execution.",
