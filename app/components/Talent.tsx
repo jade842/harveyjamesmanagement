@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const talentTypes = [
   "MCs & Hosts",
   "Performers & Entertainers",
@@ -17,8 +19,8 @@ export default function Talent() {
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4B680]/10 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left */}
+        <div className="grid lg:grid-cols-3 gap-12 items-center">
+          {/* Left — text */}
           <div>
             <div className="inline-flex items-center gap-3 mb-5">
               <div className="h-px w-8 bg-[#D4B680]" />
@@ -47,12 +49,24 @@ export default function Talent() {
             </a>
           </div>
 
+          {/* Middle — image */}
+          <div className="relative h-[480px] overflow-hidden hidden lg:block">
+            <Image
+              src="/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg"
+              alt="Fashion talent"
+              fill
+              className="object-cover object-top"
+              sizes="400px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#F4F0E4]/20 to-transparent" />
+          </div>
+
           {/* Right — talent list */}
-          <div className="grid grid-cols-2 gap-px bg-[#D4B680]/20">
+          <div className="grid grid-cols-1 gap-px bg-[#D4B680]/20">
             {talentTypes.map((talent) => (
               <div
                 key={talent}
-                className="group flex items-center gap-3 px-5 py-4 bg-[#F4F0E4] hover:bg-white transition-colors duration-200"
+                className="group flex items-center gap-3 px-5 py-3.5 bg-[#F4F0E4] hover:bg-white transition-colors duration-200"
               >
                 <div className="w-1 h-1 rounded-full bg-[#D4B680] flex-shrink-0" />
                 <span className="text-[#3a3530] text-sm font-medium tracking-wide">
