@@ -37,7 +37,7 @@ export default function Projects() {
         <div className="text-center mb-14">
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="h-px w-8 bg-[#D4B680]" />
-            <span className="text-[10px] font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+            <span className="text-[10px] font-medium tracking-[0.4em] text-[#D4B680] uppercase">
               Our Work
             </span>
             <div className="h-px w-8 bg-[#D4B680]" />
@@ -60,7 +60,7 @@ export default function Projects() {
                   {project.tags.map((tag, i) => (
                     <span
                       key={tag}
-                      className={`text-[10px] font-semibold tracking-widest uppercase px-2.5 py-0.5 ${
+                      className={`text-[10px] font-medium tracking-widest uppercase px-2.5 py-0.5 ${
                         i === 0 ? "bg-[#D4B680] text-[#111111]" : "border border-[#F4F0E4]/15 text-[#a89f8c]"
                       }`}
                     >
@@ -74,7 +74,7 @@ export default function Projects() {
                 >
                   {project.title}
                 </h3>
-                <p className="text-[10px] font-semibold tracking-widest uppercase text-[#D4B680] mb-4">{project.subtitle}</p>
+                <p className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680] mb-4">{project.subtitle}</p>
                 <p className="text-[#a89f8c] text-sm leading-relaxed">{project.scope}</p>
               </div>
               <div className="flex flex-wrap gap-1.5 md:justify-end md:pt-2">
@@ -91,7 +91,7 @@ export default function Projects() {
         <div className="mt-12 pt-8 border-t border-[#F4F0E4]/8 text-center">
           <a
             href="#contact"
-            className="inline-block px-8 py-3.5 text-xs font-semibold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200"
+            className="inline-block px-8 py-3.5 text-xs font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200"
           >
             Start the Conversation
           </a>

@@ -30,7 +30,7 @@ export default function About() {
           <div>
             <div className="inline-flex items-center gap-3 mb-5">
               <div className="h-px w-8 bg-[#D4B680]" />
-              <span className="text-[10px] font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+              <span className="text-[10px] font-medium tracking-[0.4em] text-[#D4B680] uppercase">
                 Who We Are
               </span>
             </div>
@@ -58,7 +58,7 @@ export default function About() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#111111] text-[#F4F0E4] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
+              className="inline-block px-7 py-3 text-xs font-medium tracking-widest uppercase bg-[#111111] text-[#F4F0E4] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
             >
               Work With Us
             </a>

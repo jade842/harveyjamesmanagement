@@ -36,7 +36,7 @@ export default function Services() {
           <div className="lg:sticky lg:top-28">
             <div className="inline-flex items-center gap-3 mb-5">
               <div className="h-px w-8 bg-[#D4B680]" />
-              <span className="text-[10px] font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+              <span className="text-[10px] font-medium tracking-[0.4em] text-[#D4B680] uppercase">
                 What We Do
               </span>
             </div>
@@ -51,7 +51,7 @@ export default function Services() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
+              className="inline-block px-7 py-3 text-xs font-medium tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
             >
               Discuss Your Brief
             </a>

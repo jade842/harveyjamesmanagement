@@ -83,7 +83,7 @@ export default function Nav() {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
-              className="ml-2 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm"
+              className="ml-2 px-6 py-2.5 text-sm font-medium tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm"
             >
               Get in Touch
             </a>
@@ -128,7 +128,7 @@ export default function Nav() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, "#contact")}
-            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm text-center"
+            className="mt-2 px-6 py-3 text-sm font-medium tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm text-center"
           >
             Get in Touch
           </a>

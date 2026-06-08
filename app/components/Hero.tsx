@@ -25,7 +25,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <div className="inline-flex items-center gap-3 mb-8">
           <div className="h-px w-10 bg-[#D4B680]" />
-          <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+          <span className="text-xs font-medium tracking-[0.4em] text-[#D4B680] uppercase">
             National Talent & Event Services
           </span>
           <div className="h-px w-10 bg-[#D4B680]" />
@@ -52,13 +52,13 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#services"
-            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
+            className="px-8 py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
           >
             Our Services
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase border border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
+            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
           >
             Contact Us
           </a>

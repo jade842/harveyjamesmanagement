@@ -11,7 +11,7 @@ export default function Contact() {
         {/* Eyebrow */}
         <div className="inline-flex items-center gap-3 mb-6">
           <div className="h-px w-10 bg-[#D4B680]" />
-          <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+          <span className="text-xs font-medium tracking-[0.4em] text-[#D4B680] uppercase">
             Get In Touch
           </span>
           <div className="h-px w-10 bg-[#D4B680]" />
@@ -46,7 +46,7 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <span className="text-xs font-semibold tracking-widest uppercase text-[#D4B680]">
+                  <span className="text-xs font-medium tracking-widest uppercase text-[#D4B680]">
                     Email
                   </span>
                 </div>
@@ -66,7 +66,7 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
-                  <span className="text-xs font-semibold tracking-widest uppercase text-[#D4B680]">
+                  <span className="text-xs font-medium tracking-widest uppercase text-[#D4B680]">
                     Phone
                   </span>
                 </div>
@@ -83,7 +83,7 @@ export default function Contact() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <span className="text-xs font-semibold tracking-widest uppercase text-[#D4B680]">
+                <span className="text-xs font-medium tracking-widest uppercase text-[#D4B680]">
                   Based In / Operating Nationally
                 </span>
               </div>
@@ -93,7 +93,7 @@ export default function Contact() {
             {/* CTA */}
             <a
               href={`mailto:${email}?subject=Enquiry%20%E2%80%94%20Harvey%20James%20Management&body=Hi%20Jade%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project%20with%20you.%0A%0A`}
-              className="inline-flex items-center gap-3 px-10 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/25 w-full justify-center"
+              className="inline-flex items-center gap-3 px-10 py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/25 w-full justify-center"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
