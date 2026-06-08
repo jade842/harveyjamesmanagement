@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Poppins, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const bodoniModa = Bodoni_Moda({
+  variable: "--font-bodoni",
   subsets: ["latin"],
   display: "swap",
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -34,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${poppins.variable} ${bodoniModa.variable}`}>
       <body className="min-h-full antialiased">{children}</body>
     </html>
   );

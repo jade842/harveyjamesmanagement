@@ -33,7 +33,7 @@ export default function Nav() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0a0f1e]/95 backdrop-blur-md border-b border-[#c9a84c]/20 shadow-2xl"
+          ? "bg-[#1F1F1C]/95 backdrop-blur-md border-b border-[#D4B680]/20 shadow-2xl"
           : "bg-transparent"
       }`}
     >
@@ -46,14 +46,17 @@ export default function Nav() {
             className="flex flex-col leading-tight group"
           >
             <span
-              className="text-lg font-bold tracking-widest text-[#c9a84c] uppercase"
-              style={{ fontFamily: "var(--font-playfair), serif", letterSpacing: "0.15em" }}
+              className="text-xl font-normal text-white uppercase tracking-wider"
+              style={{ fontFamily: "var(--font-bodoni), serif", letterSpacing: "0.12em" }}
             >
               Harvey James
             </span>
-            <span className="text-xs tracking-[0.3em] text-[#94a3b8] uppercase font-medium">
-              Management
-            </span>
+            <div className="flex items-center gap-2 mt-0.5">
+              <div className="h-px w-8 bg-[#D4B680]" />
+              <span className="text-[10px] tracking-[0.35em] text-[#D4B680] uppercase font-medium" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>
+                Management
+              </span>
+            </div>
           </a>
 
           {/* Desktop Nav */}
@@ -63,7 +66,7 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="nav-link text-sm font-medium text-[#cbd5e1] hover:text-[#c9a84c] tracking-wide uppercase"
+                className="nav-link text-sm font-medium text-[#d4cfc4] hover:text-[#D4B680] tracking-wide uppercase"
               >
                 {link.label}
               </a>
@@ -71,7 +74,7 @@ export default function Nav() {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
-              className="ml-4 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#c9a84c] text-[#c9a84c] hover:bg-[#c9a84c] hover:text-[#0a0f1e] transition-all duration-200 rounded-sm"
+              className="ml-4 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200 rounded-sm"
             >
               Get in Touch
             </a>
@@ -84,13 +87,13 @@ export default function Nav() {
             aria-label="Toggle menu"
           >
             <span
-              className={`block w-6 h-0.5 bg-[#c9a84c] transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
+              className={`block w-6 h-0.5 bg-[#D4B680] transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
             />
             <span
-              className={`block w-6 h-0.5 bg-[#c9a84c] transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
+              className={`block w-6 h-0.5 bg-[#D4B680] transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
             />
             <span
-              className={`block w-6 h-0.5 bg-[#c9a84c] transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+              className={`block w-6 h-0.5 bg-[#D4B680] transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
             />
           </button>
         </div>
@@ -102,13 +105,13 @@ export default function Nav() {
           menuOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
-        <div className="bg-[#0a0f1e]/98 backdrop-blur-md border-t border-[#c9a84c]/20 px-6 py-6 flex flex-col gap-5">
+        <div className="bg-[#1F1F1C]/98 backdrop-blur-md border-t border-[#D4B680]/20 px-6 py-6 flex flex-col gap-5">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-sm font-medium text-[#cbd5e1] hover:text-[#c9a84c] tracking-widest uppercase transition-colors"
+              className="text-sm font-medium text-[#d4cfc4] hover:text-[#D4B680] tracking-widest uppercase transition-colors"
             >
               {link.label}
             </a>
@@ -116,7 +119,7 @@ export default function Nav() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, "#contact")}
-            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#c9a84c] text-[#c9a84c] hover:bg-[#c9a84c] hover:text-[#0a0f1e] transition-all duration-200 rounded-sm text-center"
+            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200 rounded-sm text-center"
           >
             Get in Touch
           </a>

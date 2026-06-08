@@ -43,30 +43,30 @@ const talentTypes = [
 
 export default function Talent() {
   return (
-    <section id="talent" className="py-28 bg-[#0a0f1e] relative overflow-hidden">
+    <section id="talent" className="py-28 bg-[#1F1F1C] relative overflow-hidden">
       {/* Background accents */}
-      <div className="absolute top-1/2 left-0 w-80 h-80 rounded-full bg-[#c9a84c]/4 blur-3xl pointer-events-none -translate-y-1/2" />
-      <div className="absolute top-1/3 right-0 w-60 h-60 rounded-full bg-[#c9a84c]/3 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-0 w-80 h-80 rounded-full bg-[#D4B680]/4 blur-3xl pointer-events-none -translate-y-1/2" />
+      <div className="absolute top-1/3 right-0 w-60 h-60 rounded-full bg-[#D4B680]/3 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 mb-6">
-            <div className="h-px w-10 bg-[#c9a84c]" />
-            <span className="text-xs font-semibold tracking-[0.4em] text-[#c9a84c] uppercase">
+            <div className="h-px w-10 bg-[#D4B680]" />
+            <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
               Talent Roster
             </span>
-            <div className="h-px w-10 bg-[#c9a84c]" />
+            <div className="h-px w-10 bg-[#D4B680]" />
           </div>
           <h2
             className="text-4xl lg:text-5xl font-bold text-white mb-4"
-            style={{ fontFamily: "var(--font-playfair), serif" }}
+            style={{ fontFamily: "var(--font-bodoni), serif" }}
           >
             The Range of Talent
             <br />
             <span className="text-gold-gradient">We Deliver</span>
           </h2>
-          <p className="text-[#94a3b8] text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-[#a89f8c] text-lg max-w-2xl mx-auto leading-relaxed">
             From headline performers to on-the-ground promotional teams, our talent network spans
             every category your event demands.
           </p>
@@ -77,28 +77,28 @@ export default function Talent() {
           {talentTypes.map((talent) => (
             <div
               key={talent.title}
-              className="card-hover group p-6 border border-white/8 rounded-sm bg-[#111827]/40 relative overflow-hidden"
+              className="card-hover group p-6 border border-white/8 rounded-sm bg-[#252521]/40 relative overflow-hidden"
             >
               {/* Gold top border on hover */}
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#c9a84c] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#D4B680] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
               <div className="text-3xl mb-4">{talent.icon}</div>
               <h3 className="text-white font-semibold text-sm tracking-wide mb-2 uppercase">
                 {talent.title}
               </h3>
-              <p className="text-[#94a3b8] text-xs leading-relaxed">{talent.description}</p>
+              <p className="text-[#a89f8c] text-xs leading-relaxed">{talent.description}</p>
             </div>
           ))}
         </div>
 
         {/* Bottom CTA */}
         <div className="text-center mt-14">
-          <p className="text-[#94a3b8] mb-6 text-base">
+          <p className="text-[#a89f8c] mb-6 text-base">
             Looking for a specific talent type not listed here?
           </p>
           <a
             href="#contact"
-            className="inline-block px-8 py-3.5 text-sm font-semibold tracking-widest uppercase border border-[#c9a84c] text-[#c9a84c] hover:bg-[#c9a84c] hover:text-[#0a0f1e] transition-all duration-200 rounded-sm"
+            className="inline-block px-8 py-3.5 text-sm font-semibold tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200 rounded-sm"
           >
             Enquire Now
           </a>

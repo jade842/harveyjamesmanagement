@@ -58,26 +58,26 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-28 bg-[#111827] relative overflow-hidden">
+    <section id="services" className="py-28 bg-[#252521] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,168,76,0.06)_0%,transparent_60%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 mb-6">
-            <div className="h-px w-10 bg-[#c9a84c]" />
-            <span className="text-xs font-semibold tracking-[0.4em] text-[#c9a84c] uppercase">
+            <div className="h-px w-10 bg-[#D4B680]" />
+            <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
               What We Do
             </span>
-            <div className="h-px w-10 bg-[#c9a84c]" />
+            <div className="h-px w-10 bg-[#D4B680]" />
           </div>
           <h2
             className="text-4xl lg:text-5xl font-bold text-white mb-4"
-            style={{ fontFamily: "var(--font-playfair), serif" }}
+            style={{ fontFamily: "var(--font-bodoni), serif" }}
           >
             Our Services
           </h2>
-          <p className="text-[#94a3b8] text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-[#a89f8c] text-lg max-w-2xl mx-auto leading-relaxed">
             Comprehensive talent and event services — from brief to execution, we handle every
             dimension of your talent needs.
           </p>
@@ -88,30 +88,30 @@ export default function Services() {
           {services.map((service, idx) => (
             <div
               key={service.number}
-              className={`card-hover relative p-8 border border-white/8 rounded-sm bg-[#0a0f1e]/60 group ${
+              className={`card-hover relative p-8 border border-white/8 rounded-sm bg-[#1F1F1C]/60 group ${
                 idx === 4 ? "md:col-span-2 lg:col-span-1" : ""
               }`}
             >
               {/* Number watermark */}
               <div
-                className="absolute top-6 right-6 text-5xl font-bold text-white/4 group-hover:text-[#c9a84c]/10 transition-colors duration-300 select-none"
-                style={{ fontFamily: "var(--font-playfair), serif" }}
+                className="absolute top-6 right-6 text-5xl font-bold text-white/4 group-hover:text-[#D4B680]/10 transition-colors duration-300 select-none"
+                style={{ fontFamily: "var(--font-bodoni), serif" }}
               >
                 {service.number}
               </div>
 
               {/* Icon */}
-              <div className="w-12 h-12 rounded-sm bg-[#c9a84c]/10 flex items-center justify-center text-[#c9a84c] mb-6 group-hover:bg-[#c9a84c]/20 transition-colors duration-300">
+              <div className="w-12 h-12 rounded-sm bg-[#D4B680]/10 flex items-center justify-center text-[#D4B680] mb-6 group-hover:bg-[#D4B680]/20 transition-colors duration-300">
                 {service.icon}
               </div>
 
               <h3
                 className="text-white font-bold text-lg mb-3 tracking-wide"
-                style={{ fontFamily: "var(--font-playfair), serif" }}
+                style={{ fontFamily: "var(--font-bodoni), serif" }}
               >
                 {service.title}
               </h3>
-              <p className="text-[#94a3b8] text-sm leading-relaxed">{service.description}</p>
+              <p className="text-[#a89f8c] text-sm leading-relaxed">{service.description}</p>
             </div>
           ))}
         </div>

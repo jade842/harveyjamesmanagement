@@ -19,35 +19,35 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-28 bg-[#0a0f1e] relative overflow-hidden">
+    <section id="about" className="py-28 bg-[#1F1F1C] relative overflow-hidden">
       {/* Decorative background */}
-      <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#c9a84c]/4 blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4B680]/4 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: text */}
           <div>
             <div className="inline-flex items-center gap-3 mb-6">
-              <div className="h-px w-8 bg-[#c9a84c]" />
-              <span className="text-xs font-semibold tracking-[0.4em] text-[#c9a84c] uppercase">
+              <div className="h-px w-8 bg-[#D4B680]" />
+              <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
                 Who We Are
               </span>
             </div>
             <h2
               className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
-              style={{ fontFamily: "var(--font-playfair), serif" }}
+              style={{ fontFamily: "var(--font-bodoni), serif" }}
             >
               A Different Kind of
               <br />
               <span className="text-gold-gradient">Talent Agency</span>
             </h2>
-            <p className="text-[#94a3b8] text-lg leading-relaxed mb-6">
+            <p className="text-[#a89f8c] text-lg leading-relaxed mb-6">
               Harvey James Management is a national talent and event services agency led by Founder
               and Principal Jade Harvey-James. We provide talent procurement, programming and
               management solutions for major events, brand activations, sporting events, conferences
               and corporate experiences.
             </p>
-            <p className="text-[#94a3b8] text-lg leading-relaxed mb-10">
+            <p className="text-[#a89f8c] text-lg leading-relaxed mb-10">
               Our approach goes beyond traditional talent representation. We work closely with every
               client to understand their objectives — then curate the right talent solution for each
               unique project. The result is experiences that connect, engage and leave a lasting
@@ -55,7 +55,7 @@ export default function About() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-8 py-3.5 text-sm font-semibold tracking-widest uppercase bg-[#c9a84c] text-[#0a0f1e] hover:bg-[#e2c47a] transition-all duration-200 rounded-sm shadow-lg shadow-[#c9a84c]/20"
+              className="inline-block px-8 py-3.5 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#1F1F1C] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
             >
               Work With Us
             </a>
@@ -66,13 +66,13 @@ export default function About() {
             {pillars.map((p) => (
               <div
                 key={p.title}
-                className="card-hover p-6 border border-white/10 rounded-sm bg-[#111827]/60 backdrop-blur-sm"
+                className="card-hover p-6 border border-white/10 rounded-sm bg-[#252521]/60 backdrop-blur-sm"
               >
-                <div className="w-8 h-0.5 bg-[#c9a84c] mb-4" />
+                <div className="w-8 h-0.5 bg-[#D4B680] mb-4" />
                 <h3 className="text-white font-semibold text-base mb-2 tracking-wide">
                   {p.title}
                 </h3>
-                <p className="text-[#94a3b8] text-sm leading-relaxed">{p.desc}</p>
+                <p className="text-[#a89f8c] text-sm leading-relaxed">{p.desc}</p>
               </div>
             ))}
           </div>

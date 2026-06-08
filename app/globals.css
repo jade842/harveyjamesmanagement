@@ -1,24 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --navy: #0a0f1e;
-  --navy-light: #111827;
-  --navy-mid: #1a2340;
-  --gold: #c9a84c;
-  --gold-light: #e2c47a;
-  --gold-dark: #a8873a;
+  --charcoal: #1F1F1C;
+  --charcoal-light: #2a2a26;
+  --charcoal-mid: #252521;
+  --gold: #D4B680;
+  --gold-light: #e8cfa0;
+  --gold-dark: #b89660;
+  --eggshell: #F4F0E4;
   --white: #ffffff;
-  --gray-light: #f8f9fa;
-  --text-muted: #94a3b8;
+  --text-muted: #a89f8c;
+  --text-dim: #7a7268;
 }
 
 @theme inline {
-  --color-navy: var(--navy);
-  --color-navy-light: var(--navy-light);
-  --color-navy-mid: var(--navy-mid);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-light: var(--charcoal-light);
+  --color-charcoal-mid: var(--charcoal-mid);
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
   --color-gold-dark: var(--gold-dark);
+  --color-eggshell: var(--eggshell);
 }
 
 html {
@@ -26,9 +28,9 @@ html {
 }
 
 body {
-  background: var(--navy);
+  background: var(--charcoal);
   color: var(--white);
-  font-family: var(--font-inter, Arial, Helvetica, sans-serif);
+  font-family: var(--font-poppins, Arial, Helvetica, sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -49,15 +51,15 @@ body {
   background-clip: text;
 }
 
-.navy-gradient {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+.charcoal-gradient {
+  background: linear-gradient(135deg, var(--charcoal) 0%, var(--charcoal-mid) 100%);
 }
 
 .hero-bg {
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(201, 168, 76, 0.08) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(201, 168, 76, 0.05) 0%, transparent 50%),
-    linear-gradient(160deg, #0a0f1e 0%, #111827 40%, #0d1529 100%);
+    radial-gradient(ellipse at 20% 50%, rgba(212, 182, 128, 0.07) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(212, 182, 128, 0.04) 0%, transparent 50%),
+    linear-gradient(160deg, #1F1F1C 0%, #252521 40%, #1a1a17 100%);
 }
 
 .card-hover {
