@@ -16,7 +16,7 @@ const projects = [
     subtitle: "Talent Procurement & Backstage Management",
     scope: "End-to-end talent procurement and on-the-day coordination for one of Australia's most distinctive regional fashion festivals — models, hosts and promotional staff managed across the full program.",
     talentCategories: ["Fashion Models", "Promotional Staff", "Event Hosts"],
-    image: "/Photo 12-6-21, 4 56 57 pm.jpg",
+    image: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (90 of 147).jpg",
     imagePosition: "object-[center_20%]",
   },
   {
