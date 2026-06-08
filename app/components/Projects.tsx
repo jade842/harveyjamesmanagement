@@ -27,6 +27,7 @@ const projects = [
     talentCategories: ["Brand Ambassadors", "Promotional Staff"],
     image: "/CM10 Tradeshow BTS 2016.PNG",
     imagePosition: "object-center",
+    imageScale: "scale-150",
   },
   {
     tags: ["Racing", "Event Activation"],
@@ -103,7 +104,7 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    className={`object-cover ${project.imagePosition}`}
+                    className={`object-cover ${project.imagePosition} ${(project as {imageScale?: string}).imageScale ?? ""}`}
                     sizes="192px"
                   />
                 </div>
