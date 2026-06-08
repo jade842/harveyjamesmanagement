@@ -11,7 +11,7 @@ export default function About() {
               <div className="absolute -top-3 -right-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
                 <Image
-                  src="/headshot.jpg"
+                  src="/Headshot.jpg"
                   alt="Jade Harvey-James, Founder & Principal of Harvey James Management"
                   fill
                   className="object-cover object-top"
