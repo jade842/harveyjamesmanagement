@@ -27,7 +27,7 @@ const projects = [
     talentCategories: ["Brand Ambassadors", "Promotional Staff"],
     image: "/CM10 Tradeshow BTS 2016.PNG",
     imagePosition: "object-center",
-    imageScale: "scale-150",
+    imageScale: "scale-[2]",
   },
   {
     tags: ["Racing", "Event Activation"],
