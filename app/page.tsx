@@ -23,7 +23,7 @@ export default function Home() {
         <Services />
         <LogoDivider dark={false} />
         <Events />
-        <LogoDivider dark={true} />
+        <LogoDivider dark={false} />
         <Talent />
         <LogoDivider dark={true} />
         <Projects />
