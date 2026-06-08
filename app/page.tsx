@@ -5,6 +5,7 @@ import Services from "@/app/components/Services";
 import Events from "@/app/components/Events";
 import Talent from "@/app/components/Talent";
 import Projects from "@/app/components/Projects";
+import VideoShowreel from "@/app/components/VideoShowreel";
 import Testimonials from "@/app/components/Testimonials";
 import Gallery from "@/app/components/Gallery";
 import Contact from "@/app/components/Contact";
@@ -21,6 +22,7 @@ export default function Home() {
         <Events />
         <Talent />
         <Projects />
+        <VideoShowreel />
         <Testimonials />
         <Gallery />
         <Contact />
