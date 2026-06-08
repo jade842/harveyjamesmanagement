@@ -16,8 +16,8 @@ const projects = [
     subtitle: "Talent Procurement & Backstage Management",
     scope: "End-to-end talent procurement and on-the-day coordination for one of Australia's most distinctive regional fashion festivals — models, hosts and promotional staff managed across the full program.",
     talentCategories: ["Fashion Models", "Promotional Staff", "Event Hosts"],
-    image: null,
-    imagePosition: "object-center",
+    image: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (112 of 147).jpg",
+    imagePosition: "object-[center_20%]",
   },
   {
     tags: ["Trade Expo", "Brand Activation"],
