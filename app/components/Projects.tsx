@@ -41,7 +41,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 bg-[#F4F0E4]">
+    <section id="projects" className="py-24 bg-[#1F1F1C]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
         <div className="text-center mb-14">
@@ -53,7 +53,7 @@ export default function Projects() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-bold text-[#1F1F1C]"
+            className="text-3xl lg:text-4xl font-bold text-[#F4F0E4]"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Work That Speaks
@@ -62,7 +62,7 @@ export default function Projects() {
           </h2>
         </div>
 
-        <div className="divide-y divide-[#D4B680]/20">
+        <div className="divide-y divide-[#D4B680]/15">
           {projects.map((project) => (
             <div key={project.title} className="group py-8 grid md:grid-cols-[1fr_auto] gap-8 items-start">
               {/* Text + categories */}
@@ -72,7 +72,7 @@ export default function Projects() {
                     <span
                       key={tag}
                       className={`text-[10px] font-medium tracking-widest uppercase px-2.5 py-0.5 ${
-                        i === 0 ? "bg-[#D4B680] text-[#111111]" : "border border-[#D4B680]/40 text-[#8a7a60]"
+                        i === 0 ? "bg-[#D4B680] text-[#111111]" : "border border-[#D4B680]/40 text-[#a89f8c]"
                       }`}
                     >
                       {tag}
@@ -80,16 +80,16 @@ export default function Projects() {
                   ))}
                 </div>
                 <h3
-                  className="text-2xl font-bold text-[#3a3530] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
+                  className="text-2xl font-bold text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
                   style={{ fontFamily: "var(--font-poppins), sans-serif" }}
                 >
                   {project.title}
                 </h3>
                 <p className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680] mb-4">{project.subtitle}</p>
-                <p className="text-[#5a5248] text-sm leading-relaxed mb-4">{project.scope}</p>
+                <p className="text-[#a89f8c] text-sm leading-relaxed mb-4">{project.scope}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {project.talentCategories.map((cat) => (
-                    <span key={cat} className="text-[10px] tracking-wide text-[#8a7a60] border border-[#D4B680]/30 px-2 py-0.5">
+                    <span key={cat} className="text-[10px] tracking-wide text-[#a89f8c] border border-[#D4B680]/30 px-2 py-0.5">
                       {cat}
                     </span>
                   ))}
