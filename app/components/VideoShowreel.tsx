@@ -16,23 +16,40 @@ export default function VideoShowreel() {
             className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-4"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
-            AFC Women's Asian Cup 2026
+            Watch Us
             <br />
-            <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Halftime Performance</span>
+            <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Work</span>
           </h2>
           <p className="text-[#5a5248] text-base leading-relaxed max-w-xl mx-auto">
-            A glimpse of the talent we sourced and managed across the AFC Women's Asian Cup Fan Zones — cultural performers bringing the tournament to life.
+            From major sporting events to high-end fashion campaigns — a glimpse of the talent and events we deliver.
           </p>
         </div>
 
-        <div className="relative w-full aspect-video overflow-hidden shadow-2xl shadow-[#D4B680]/10">
-          <iframe
-            src="https://www.youtube.com/embed/DdcY68lsYaU"
-            title="AFC Women's Asian Cup 2026 Halftime Performance"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="w-full h-full"
-          />
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <div className="relative w-full aspect-video overflow-hidden shadow-2xl shadow-[#D4B680]/10 mb-3">
+              <iframe
+                src="https://www.youtube.com/embed/DdcY68lsYaU"
+                title="AFC Women's Asian Cup 2026 Halftime Performance"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+            <p className="text-[10px] font-medium tracking-widest uppercase text-[#b89660]">AFC Women's Asian Cup 2026 — Halftime Performance</p>
+          </div>
+          <div>
+            <div className="relative w-full aspect-video overflow-hidden shadow-2xl shadow-[#D4B680]/10 mb-3">
+              <iframe
+                src="https://www.youtube.com/embed/84yPUY4lRqI"
+                title="HJM Model Katie E for Spendless Shoes A/W 2022"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+            <p className="text-[10px] font-medium tracking-widest uppercase text-[#b89660]">Katie E for Spendless Shoes — A/W 2022</p>
+          </div>
         </div>
       </div>
     </section>
