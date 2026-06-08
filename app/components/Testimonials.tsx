@@ -15,9 +15,9 @@ const testimonials = [
     context: "Perth",
   },
   {
-    quote: "Jade and HJM have been wonderful to me and given me some great opportunities that I'm very grateful for and very excited to continue. HJM are very warm and welcoming and I can't wait to work with them more very soon.",
-    name: "Saul P",
-    context: "Perth",
+    quote: "Jade is super friendly and has been great with being transparent and informative.",
+    name: "Riley N",
+    context: "Tasmania",
   },
   {
     quote: "I believe one of Jade's greatest strengths as an agent is her approachability — she is accessible and prompt to respond, welcoming whenever we meet. I no longer feel the need to accompany Alana to events if her or her team are in attendance as I trust my daughter will be cared for.",
