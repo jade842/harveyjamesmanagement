@@ -41,6 +41,20 @@ const images = [
   { src: "/Photo 16-9-2022, 7 35 27 pm.jpg", alt: "Event backstage", aspect: "w-48" },
   { src: "/On memory 2021 flowers.jpg", alt: "Event detail", aspect: "w-56" },
   { src: "/Photo 5-10-21, 1 50 19 pm.jpg", alt: "Event", aspect: "w-64" },
+  { src: "/385_HiRes.jpg", alt: "Harvey James Management", aspect: "w-56" },
+  { src: "/Katie-31 (3).jpg", alt: "Model", aspect: "w-48" },
+  { src: "/Loic 3 (1).jpg", alt: "Model", aspect: "w-56" },
+  { src: "/Loic 4 (1).jpg", alt: "Model", aspect: "w-64" },
+  { src: "/Loic 6 (1).jpg", alt: "Model", aspect: "w-48" },
+  { src: "/On memory 2021 flowers 2.jpg", alt: "Event detail", aspect: "w-56" },
+  { src: "/Photo 12-6-21, 5 22 03 pm.jpg", alt: "Event talent", aspect: "w-64" },
+  { src: "/Photo 30-9-21, 9 54 49 am.jpg", alt: "Event", aspect: "w-56" },
+  { src: "/RubyRyanPhoto_0029.jpg", alt: "Harvey James Management", aspect: "w-72" },
+  { src: "/Snapchat-1254401825.jpg", alt: "Event", aspect: "w-48" },
+  { src: "/Snapchat-2023796246.jpg", alt: "Event", aspect: "w-56" },
+  { src: "/Solomon Islands Campaign 2016.jpg", alt: "Campaign", aspect: "w-64" },
+  { src: "/TRC_Fashion_0074.jpg", alt: "Tasmanian Racing Club", aspect: "w-56" },
+  { src: "/WhatsApp Image 2026-03-27 at 13.38.24 (1).jpeg", alt: "AFC", aspect: "w-64" },
 ];
 
 export default function Gallery() {
