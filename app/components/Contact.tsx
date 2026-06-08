@@ -30,8 +30,8 @@ ${message}`;
   }
 
   return (
-    <section id="contact" className="py-20 bg-[#F4F0E4] relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(201,168,76,0.07)_0%,transparent_65%)]" />
+    <section id="contact" className="py-20 bg-[#1F1F1C] relative overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,182,128,0.08)_0%,transparent_65%)]" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4B680]/30 to-transparent" />
 
       <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
@@ -45,14 +45,14 @@ ${message}`;
             <div className="h-px w-10 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-bold text-[#1F1F1C] mb-4 leading-tight"
+            className="text-4xl lg:text-5xl font-bold text-[#F4F0E4] mb-4 leading-tight"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Ready to Elevate
             <br />
             <span className="text-gold-gradient">Your Next Event?</span>
           </h2>
-          <p className="text-[#5a5248] text-lg leading-relaxed max-w-xl mx-auto">
+          <p className="text-[#a89f8c] text-lg leading-relaxed max-w-xl mx-auto">
             Whether you have a detailed brief or just an idea, we&apos;d love to hear from you.
           </p>
         </div>
@@ -61,7 +61,7 @@ ${message}`;
         <div className="grid lg:grid-cols-[2fr_1fr] gap-8 items-start">
 
           {/* Form */}
-          <div className="border border-[#D4B680]/25 bg-[#ede9dc]/60 backdrop-blur-sm overflow-hidden">
+          <div className="border border-[#D4B680]/25 bg-[#2a2a27]/60 backdrop-blur-sm overflow-hidden">
             <div className="h-0.5 bg-gradient-to-r from-transparent via-[#D4B680] to-transparent" />
             <div className="p-8 md:p-10">
               {submitted ? (
@@ -86,7 +86,7 @@ ${message}`;
                         name="name"
                         required
                         placeholder="Your full name"
-                        className="w-full bg-[#F4F0E4] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#3a3530] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
+                        className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
                       />
                     </div>
                     <div>
@@ -96,7 +96,7 @@ ${message}`;
                         type="email"
                         required
                         placeholder="your@email.com"
-                        className="w-full bg-[#F4F0E4] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#3a3530] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
+                        className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
                       />
                     </div>
                   </div>
@@ -107,14 +107,14 @@ ${message}`;
                         name="phone"
                         type="tel"
                         placeholder="Your phone number"
-                        className="w-full bg-[#F4F0E4] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#3a3530] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
+                        className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors"
                       />
                     </div>
                     <div>
                       <label className="block text-[10px] font-medium tracking-widest uppercase text-[#D4B680] mb-2">Event Type</label>
                       <select
                         name="eventType"
-                        className="w-full bg-[#F4F0E4] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#3a3530] focus:outline-none focus:border-[#D4B680] transition-colors appearance-none"
+                        className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] focus:outline-none focus:border-[#D4B680] transition-colors appearance-none"
                       >
                         <option value="">Select an option</option>
                         <option>Talent Procurement</option>
@@ -133,12 +133,12 @@ ${message}`;
                       required
                       rows={5}
                       placeholder="Tell us about your event, timeline and any specific requirements..."
-                      className="w-full bg-[#F4F0E4] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#3a3530] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors resize-none"
+                      className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors resize-none"
                     />
                   </div>
                   <button
                     type="submit"
-                    className="w-full py-4 text-sm font-medium tracking-widest uppercase bg-[#111111] text-[#F4F0E4] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
+                    className="w-full py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200"
                   >
                     Send Enquiry
                   </button>
@@ -158,7 +158,7 @@ ${message}`;
                 </div>
                 <span className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680]">Email</span>
               </div>
-              <a href={`mailto:${email}`} className="text-[#3a3530] text-sm font-medium hover:text-[#D4B680] transition-colors break-all">
+              <a href={`mailto:${email}`} className="text-[#F4F0E4] text-sm font-medium hover:text-[#D4B680] transition-colors break-all">
                 {email}
               </a>
             </div>
@@ -175,7 +175,7 @@ ${message}`;
                 </div>
                 <span className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680]">Location</span>
               </div>
-              <p className="text-[#3a3530] text-sm font-medium">Australia-wide</p>
+              <p className="text-[#F4F0E4] text-sm font-medium">Australia-wide</p>
             </div>
 
             <div className="h-px bg-[#D4B680]/20" />
@@ -189,7 +189,7 @@ ${message}`;
                 </div>
                 <span className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680]">Response Time</span>
               </div>
-              <p className="text-[#3a3530] text-sm font-medium">Within 24 hours</p>
+              <p className="text-[#F4F0E4] text-sm font-medium">Within 24 hours</p>
             </div>
           </div>
 
