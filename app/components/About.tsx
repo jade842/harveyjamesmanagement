@@ -21,7 +21,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-28 bg-[#1F1F1C] relative overflow-hidden">
+    <section id="about" className="py-20 bg-[#1F1F1C] relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4B680]/4 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8">

@@ -90,7 +90,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28 bg-[#252521] relative overflow-hidden">
+    <section id="projects" className="py-20 bg-[#252521] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(212,182,128,0.06)_0%,transparent_55%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">

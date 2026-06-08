@@ -2,7 +2,7 @@ export default function Contact() {
   const email = "jade@harveyjamesmanagement.com.au";
 
   return (
-    <section id="contact" className="py-28 bg-[#1F1F1C] relative overflow-hidden">
+    <section id="contact" className="py-20 bg-[#1F1F1C] relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(201,168,76,0.07)_0%,transparent_65%)]" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4B680]/30 to-transparent" />
@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
 
         <h2
-          className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
+          className="text-4xl lg:text-5xl font-normal text-white mb-6 leading-tight"
           style={{ fontFamily: "var(--font-bodoni), serif" }}
         >
           Ready to Elevate

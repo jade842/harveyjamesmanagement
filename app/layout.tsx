@@ -12,6 +12,7 @@ const poppins = Poppins({
 const bodoniModa = Bodoni_Moda({
   variable: "--font-bodoni",
   subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
   style: ["normal", "italic"],
 });
