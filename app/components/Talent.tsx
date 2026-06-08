@@ -55,7 +55,7 @@ export default function Talent() {
               src="/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg"
               alt="Fashion talent"
               fill
-              className="object-cover object-top"
+              className="object-cover object-[center_20%]"
               sizes="400px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#F4F0E4]/20 to-transparent" />
