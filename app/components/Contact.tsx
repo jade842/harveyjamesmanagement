@@ -2,7 +2,7 @@ export default function Contact() {
   const email = "jade@harveyjamesmanagement.com.au";
 
   return (
-    <section id="contact" className="py-20 bg-[#1F1F1C] relative overflow-hidden">
+    <section id="contact" className="py-20 bg-[#1a1a1a] relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(201,168,76,0.07)_0%,transparent_65%)]" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4B680]/30 to-transparent" />
@@ -32,7 +32,7 @@ export default function Contact() {
         </p>
 
         {/* Contact card */}
-        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-[#252521]/60 backdrop-blur-sm overflow-hidden">
+        <div className="inline-block w-full max-w-2xl border border-[#D4B680]/25 rounded-sm bg-[#222222]/60 backdrop-blur-sm overflow-hidden">
           {/* Gold top accent */}
           <div className="h-0.5 bg-gradient-to-r from-transparent via-[#D4B680] to-transparent" />
 
@@ -93,7 +93,7 @@ export default function Contact() {
             {/* CTA */}
             <a
               href={`mailto:${email}?subject=Enquiry%20%E2%80%94%20Harvey%20James%20Management&body=Hi%20Jade%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project%20with%20you.%0A%0A`}
-              className="inline-flex items-center gap-3 px-10 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#1F1F1C] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/25 w-full justify-center"
+              className="inline-flex items-center gap-3 px-10 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#1a1a1a] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/25 w-full justify-center"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

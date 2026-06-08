@@ -3,37 +3,37 @@ const services = [
     number: "01",
     title: "Talent Procurement",
     description:
-      "End-to-end sourcing of the right talent for your event — tapping our national network to find performers, hosts and specialists who meet your brief precisely.",
+      "End-to-end sourcing of the right talent for your event — tapping our national network to find performers, hosts and specialists who match your brief precisely.",
   },
   {
     number: "02",
-    title: "Event Execution",
+    title: "Fashion Events & Production",
     description:
-      "For select clients, we take full ownership of event delivery — programming, run-of-show, on-site coordination and post-event reporting handled end to end.",
+      "Full event production and backstage management for fashion events — from runway logistics and talent coordination to creative programming and on-day execution.",
   },
   {
     number: "03",
-    title: "Talent Management",
+    title: "Personalised Retreats",
     description:
-      "Full lifecycle management — contracts, briefings, logistics and on-site coordination — so clients have one point of contact from start to finish.",
+      "Curated retreat experiences designed and delivered end to end — talent, programming, logistics and on-site management for intimate, high-quality events.",
   },
   {
     number: "04",
-    title: "Brand Activations",
+    title: "Onsite Talent Management",
     description:
-      "Bespoke talent and event solutions for activations and experiential campaigns — ambassadors, hosts and performers who bring your brand to life.",
+      "Full onsite management of your complete talent portfolio — briefings, logistics, scheduling and on-day coordination across single or multi-venue events.",
   },
   {
     number: "05",
-    title: "Workforce Planning",
+    title: "Brand Activations",
     description:
-      "Strategic planning and deployment of large promotional teams — rostering, training coordination and multi-site logistics at national scale.",
+      "Bespoke talent solutions for brand activations and experiential campaigns — ambassadors, hosts and performers who bring your brand to life at any scale.",
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-[#1F1F1C] relative overflow-hidden">
+    <section id="services" className="py-24 bg-[#1a1a1a] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(212,182,128,0.05)_0%,transparent_60%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -57,7 +57,7 @@ export default function Services() {
           {services.map((service, idx) => (
             <div
               key={service.number}
-              className={`group p-8 bg-[#1F1F1C] hover:bg-[#252520] transition-colors duration-300 ${
+              className={`group p-8 bg-[#1a1a1a] hover:bg-[#222222] transition-colors duration-300 ${
                 idx === 4 ? "md:col-span-2 lg:col-span-1" : ""
               }`}
             >

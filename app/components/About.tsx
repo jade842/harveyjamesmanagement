@@ -19,7 +19,7 @@ export default function About() {
                   priority
                 />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#1F1F1C]/80 to-transparent px-5 py-5">
+              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent px-5 py-5">
                 <p className="text-white font-medium text-sm">Jade Harvey-James</p>
                 <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
@@ -35,7 +35,7 @@ export default function About() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-normal text-[#1F1F1C] mb-6 leading-tight"
+              className="text-3xl lg:text-4xl font-normal text-[#1a1a1a] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-bodoni), serif" }}
             >
               Talent & Event Solutions,
@@ -43,14 +43,14 @@ export default function About() {
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
               Harvey James Management is a national talent and event services agency founded and led
-              by Jade Harvey-James. We provide talent procurement, programming, management and select
-              event execution for major events, brand activations, sporting events, conferences and
-              corporate experiences across Australia.
+              by Jade Harvey-James. We source, contract and manage talent across a broad range of
+              categories for major events, brand activations, sporting events, conferences and
+              corporate experiences nationwide.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              We go beyond sourcing names off a list. For select clients, we take full ownership of
-              the talent and event delivery — managing everything from brief and programming through
-              to on-site coordination and post-event reporting.
+              Beyond talent, we execute select events in full — specialising in fashion events and
+              production, backstage management, personalised retreats and onsite management of
+              complete talent portfolios.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
               Jade brings a background in performance, commercial operations and founder-led
@@ -58,7 +58,7 @@ export default function About() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#1F1F1C] text-white hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200"
+              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#1a1a1a] text-white hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200"
             >
               Work With Us
             </a>

@@ -27,7 +27,7 @@ export default function Talent() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-normal text-[#1F1F1C] mb-6 leading-tight"
+              className="text-3xl lg:text-4xl font-normal text-[#1a1a1a] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-bodoni), serif" }}
             >
               The Range of Talent
@@ -41,7 +41,7 @@ export default function Talent() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#1F1F1C] text-white hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200"
+              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#1a1a1a] text-white hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200"
             >
               Enquire Now
             </a>

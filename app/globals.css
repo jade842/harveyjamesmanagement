@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --charcoal: #1F1F1C;
-  --charcoal-light: #2a2a26;
-  --charcoal-mid: #252521;
+  --charcoal: #1a1a1a;
+  --charcoal-light: #242424;
+  --charcoal-mid: #212121;
   --gold: #D4B680;
   --gold-light: #e8cfa0;
   --gold-dark: #b89660;
@@ -59,7 +59,7 @@ body {
   background:
     radial-gradient(ellipse at 20% 50%, rgba(212, 182, 128, 0.07) 0%, transparent 60%),
     radial-gradient(ellipse at 80% 20%, rgba(212, 182, 128, 0.04) 0%, transparent 50%),
-    linear-gradient(160deg, #1F1F1C 0%, #252521 40%, #1a1a17 100%);
+    linear-gradient(160deg, #1a1a1a 0%, #222222 40%, #181818 100%);
 }
 
 .card-hover {

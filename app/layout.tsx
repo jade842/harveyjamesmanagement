@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Bodoni_Moda } from "next/font/google";
+import { Poppins, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -9,10 +9,10 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const bodoniModa = Bodoni_Moda({
+const cormorant = Cormorant_Garamond({
   variable: "--font-bodoni",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["300", "400", "500", "600"],
   display: "swap",
   style: ["normal", "italic"],
 });
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${bodoniModa.variable}`}>
+    <html lang="en" className={`${poppins.variable} ${cormorant.variable}`}>
       <body className="min-h-full antialiased">{children}</body>
     </html>
   );

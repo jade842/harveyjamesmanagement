@@ -33,7 +33,7 @@ export default function Nav() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#1F1F1C]/95 backdrop-blur-md border-b border-[#D4B680]/20 shadow-2xl"
+          ? "bg-[#1a1a1a]/95 backdrop-blur-md border-b border-[#D4B680]/20 shadow-2xl"
           : "bg-transparent"
       }`}
     >
@@ -82,7 +82,7 @@ export default function Nav() {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
-              className="ml-2 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200 rounded-sm"
+              className="ml-2 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200 rounded-sm"
             >
               Get in Touch
             </a>
@@ -113,7 +113,7 @@ export default function Nav() {
           menuOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
-        <div className="bg-[#1F1F1C]/98 backdrop-blur-md border-t border-[#D4B680]/20 px-6 py-6 flex flex-col gap-5">
+        <div className="bg-[#1a1a1a]/98 backdrop-blur-md border-t border-[#D4B680]/20 px-6 py-6 flex flex-col gap-5">
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -127,7 +127,7 @@ export default function Nav() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, "#contact")}
-            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1F1F1C] transition-all duration-200 rounded-sm text-center"
+            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200 rounded-sm text-center"
           >
             Get in Touch
           </a>
