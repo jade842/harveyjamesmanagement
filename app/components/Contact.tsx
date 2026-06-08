@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
 
         <h2
-          className="text-4xl lg:text-5xl font-normal text-white mb-6 leading-tight"
+          className="text-4xl lg:text-5xl font-normal text-[#F4F0E4] mb-6 leading-tight"
           style={{ fontFamily: "var(--font-bodoni), serif" }}
         >
           Ready to Elevate
@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <a
                   href={`mailto:${email}`}
-                  className="text-white text-sm font-medium hover:text-[#D4B680] transition-colors duration-200 break-all"
+                  className="text-[#F4F0E4] text-sm font-medium hover:text-[#D4B680] transition-colors duration-200 break-all"
                 >
                   {email}
                 </a>
@@ -70,7 +70,7 @@ export default function Contact() {
                     Phone
                   </span>
                 </div>
-                <span className="text-white text-sm font-medium">Available on enquiry</span>
+                <span className="text-[#F4F0E4] text-sm font-medium">Available on enquiry</span>
               </div>
             </div>
 

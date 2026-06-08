@@ -41,7 +41,7 @@ export default function Talent() {
             </p>
             <a
               href="#contact"
-              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#111111] text-white hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
+              className="inline-block px-7 py-3 text-xs font-semibold tracking-widest uppercase bg-[#111111] text-[#F4F0E4] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
             >
               Enquire Now
             </a>

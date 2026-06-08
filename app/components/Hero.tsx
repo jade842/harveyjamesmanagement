@@ -33,7 +33,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-white"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-[#F4F0E4]"
           style={{ fontFamily: "var(--font-bodoni), serif" }}
         >
           The Right Talent.
@@ -58,7 +58,7 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase border border-white/30 text-white hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
+            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase border border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
           >
             Contact Us
           </a>
