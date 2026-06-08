@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   {
     number: "01",
@@ -56,6 +58,16 @@ export default function Services() {
               Discuss Your Brief
             </a>
 
+            <div className="relative mt-8 h-72 overflow-hidden hidden lg:block">
+              <Image
+                src="/CalHadaway_Riv_HarveyJames_2021 (3) (3) (1).jpg"
+                alt="Harvey James Management"
+                fill
+                className="object-cover object-center"
+                sizes="400px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1F1F1C]/40 to-transparent" />
+            </div>
           </div>
 
           {/* Right: service list */}
