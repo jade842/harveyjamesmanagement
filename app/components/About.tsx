@@ -12,7 +12,7 @@ export default function About() {
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
                 <Image
                   src="/Headshot.jpg"
-                  alt="Jade Harvey-James, Founder & Principal of Harvey James Management"
+                  alt="Jade Taylor, Founder & Principal of Harvey James Management"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 288px, 400px"
@@ -20,7 +20,7 @@ export default function About() {
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#111111]/80 to-transparent px-5 py-5">
-                <p className="text-[#F4F0E4] font-medium text-sm">Jade Harvey-James</p>
+                <p className="text-[#F4F0E4] font-medium text-sm">Jade Taylor</p>
                 <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function About() {
               <br />Delivered End to End
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              Harvey James Management is a national talent and event services agency founded by Jade Harvey-James — built on a genuine love for events, deep industry relationships and a commitment to getting every detail right.
+              Harvey James Management is a national talent and event services agency founded by Jade Taylor — built on a genuine love for events, deep industry relationships and a commitment to getting every detail right.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
               We specialise in sourcing, contracting and managing talent across every category — from MCs and cultural performers to promotional staff and brand ambassadors — for major sporting events, brand activations, conferences and corporate experiences nationwide.
