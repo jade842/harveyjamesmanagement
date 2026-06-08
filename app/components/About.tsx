@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   const pillars = [
     {
@@ -23,9 +25,32 @@ export default function About() {
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4B680]/4 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
-          {/* Left: text */}
-          <div>
+        <div className="grid lg:grid-cols-5 gap-16 items-start">
+          {/* Left: headshot */}
+          <div className="lg:col-span-2 flex justify-center lg:justify-start">
+            <div className="relative w-72 lg:w-full max-w-sm">
+              {/* Gold border accent */}
+              <div className="absolute -top-3 -left-3 w-full h-full border border-[#D4B680]/30 rounded-sm pointer-events-none z-0" />
+              <div className="relative z-10 overflow-hidden rounded-sm aspect-[3/4]">
+                <Image
+                  src="/headshot.jpg"
+                  alt="Jade Harvey-James, Founder & Principal of Harvey James Management"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 288px, 400px"
+                  priority
+                />
+              </div>
+              {/* Name plate */}
+              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#1F1F1C]/90 to-transparent px-5 py-4">
+                <p className="text-white font-semibold text-sm tracking-wide">Jade Harvey-James</p>
+                <p className="text-[#D4B680] text-xs tracking-widest uppercase">Founder & Principal</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right: text */}
+          <div className="lg:col-span-3">
             <div className="inline-flex items-center gap-3 mb-6">
               <div className="h-px w-8 bg-[#D4B680]" />
               <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
@@ -63,10 +88,8 @@ export default function About() {
             >
               Work With Us
             </a>
-          </div>
-
-          {/* Right: pillars */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {/* Pillars */}
+            <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {pillars.map((p) => (
               <div
                 key={p.title}
@@ -79,6 +102,7 @@ export default function About() {
                 <p className="text-[#a89f8c] text-sm leading-relaxed">{p.desc}</p>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>
