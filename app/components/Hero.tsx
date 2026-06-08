@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-3 mb-8">
           <div className="h-px w-10 bg-[#D4B680]" />
           <span className="text-xs font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
-            Australia&apos;s Premier Talent Agency
+            Talent & Event Services — Australia
           </span>
           <div className="h-px w-10 bg-[#D4B680]" />
         </div>
@@ -36,18 +36,17 @@ export default function Hero() {
           className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-white"
           style={{ fontFamily: "var(--font-bodoni), serif" }}
         >
-          Talent That
+          Talent & Events,
           <br />
-          <span className="text-gold-gradient">Elevates Every</span>
+          <span className="text-gold-gradient">Delivered with</span>
           <br />
-          Experience
+          Precision
         </h1>
 
         {/* Subheadline */}
-        <p className="max-w-2xl mx-auto text-lg sm:text-xl text-[#a89f8c] leading-relaxed mb-12">
-          We source, contract and manage world-class talent — MCs, performers, cultural artists,
-          promotional staff and more — delivering curated solutions for major events, brand
-          activations and corporate experiences across Australia.
+        <p className="max-w-xl mx-auto text-base sm:text-lg text-[#a89f8c] leading-relaxed mb-12">
+          We source, manage and deliver talent and event solutions for major events, brand activations,
+          sporting events and corporate experiences across Australia.
         </p>
 
         {/* CTAs */}

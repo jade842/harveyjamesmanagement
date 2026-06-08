@@ -12,14 +12,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
-          <div className="flex flex-col items-center md:items-start leading-tight">
-            <span
-              className="text-base font-bold tracking-widest text-[#D4B680] uppercase"
-              style={{ fontFamily: "var(--font-bodoni), serif", letterSpacing: "0.15em" }}
-            >
-              Harvey James
-            </span>
-            <span className="text-xs tracking-[0.3em] text-[#7a7268] uppercase font-medium">
+          <div className="flex flex-col items-center md:items-start leading-none">
+            <div className="flex items-center" style={{ fontFamily: "var(--font-bodoni), serif" }}>
+              <span className="text-base font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>Harvey</span>
+              <span className="mx-2 text-[#D4B680] font-light text-base">|</span>
+              <span className="text-base font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>James</span>
+            </div>
+            <span className="text-[9px] font-medium text-[#D4B680] uppercase mt-1" style={{ letterSpacing: "0.4em", fontFamily: "var(--font-poppins), sans-serif" }}>
               Management
             </span>
           </div>

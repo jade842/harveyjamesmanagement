@@ -43,20 +43,16 @@ export default function Nav() {
           <a
             href="#hero"
             onClick={(e) => handleNavClick(e, "#hero")}
-            className="flex flex-col leading-tight group"
+            className="flex flex-col items-start leading-none group"
           >
-            <span
-              className="text-xl font-normal text-white uppercase tracking-wider"
-              style={{ fontFamily: "var(--font-bodoni), serif", letterSpacing: "0.12em" }}
-            >
-              Harvey James
-            </span>
-            <div className="flex items-center gap-2 mt-0.5">
-              <div className="h-px w-8 bg-[#D4B680]" />
-              <span className="text-[10px] tracking-[0.35em] text-[#D4B680] uppercase font-medium" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>
-                Management
-              </span>
+            <div className="flex items-center gap-0" style={{ fontFamily: "var(--font-bodoni), serif" }}>
+              <span className="text-lg font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>Harvey</span>
+              <span className="mx-2.5 text-[#D4B680] font-light" style={{ fontSize: "1.1rem" }}>|</span>
+              <span className="text-lg font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>James</span>
             </div>
+            <span className="text-[9px] font-medium text-[#D4B680] uppercase mt-1" style={{ letterSpacing: "0.4em", fontFamily: "var(--font-poppins), sans-serif" }}>
+              Management
+            </span>
           </a>
 
           {/* Desktop Nav */}
