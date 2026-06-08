@@ -52,7 +52,7 @@ export default function Nav() {
               alt="Harvey James Management"
               width={120}
               height={61}
-              className="h-10 w-auto object-contain"
+              className="h-14 w-auto object-contain"
               priority
             />
           </a>
