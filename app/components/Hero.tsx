@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Headline */}
         <h1
           className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-[#F4F0E4]"
-          style={{ fontFamily: "var(--font-bodoni), serif" }}
+          style={{ fontFamily: "var(--font-audrey), serif" }}
         >
           The Right Talent.
           <br />

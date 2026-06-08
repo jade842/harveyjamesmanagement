@@ -47,7 +47,7 @@ export default function Nav() {
             className="flex items-center"
           >
             <Image
-              src="/logo-white.png"
+              src="/logo-transparent.png"
               alt="Harvey James Management"
               width={120}
               height={61}

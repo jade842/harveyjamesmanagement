@@ -19,7 +19,7 @@ export default function Contact() {
 
         <h2
           className="text-4xl lg:text-5xl font-normal text-[#F4F0E4] mb-6 leading-tight"
-          style={{ fontFamily: "var(--font-bodoni), serif" }}
+          style={{ fontFamily: "var(--font-audrey), serif" }}
         >
           Ready to Elevate
           <br />

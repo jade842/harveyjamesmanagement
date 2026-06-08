@@ -1,20 +1,25 @@
 import type { Metadata } from "next";
-import { Poppins, Cormorant_Garamond } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const audrey = localFont({
+  src: [
+    { path: "../public/fonts/Audrey-Normal.otf", weight: "400", style: "normal" },
+    { path: "../public/fonts/Audrey-Medium.otf", weight: "500", style: "normal" },
+    { path: "../public/fonts/Audrey-Bold.otf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-audrey",
   display: "swap",
 });
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-bodoni",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+const poppins = localFont({
+  src: [
+    { path: "../public/fonts/Poppins-Light.ttf", weight: "300", style: "normal" },
+    { path: "../public/fonts/Poppins-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../public/fonts/Poppins-Medium.ttf", weight: "500", style: "normal" },
+  ],
+  variable: "--font-poppins",
   display: "swap",
-  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -37,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${cormorant.variable}`}>
+    <html lang="en" className={`${audrey.variable} ${poppins.variable}`}>
       <body className="min-h-full antialiased">{children}</body>
     </html>
   );

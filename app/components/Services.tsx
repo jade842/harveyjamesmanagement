@@ -42,7 +42,7 @@ export default function Services() {
             </div>
             <h2
               className="text-3xl lg:text-4xl font-normal text-[#F4F0E4] mb-6"
-              style={{ fontFamily: "var(--font-bodoni), serif" }}
+              style={{ fontFamily: "var(--font-audrey), serif" }}
             >
               Our Services
             </h2>
@@ -70,7 +70,7 @@ export default function Services() {
                 <div>
                   <h3
                     className="text-xl font-normal text-[#F4F0E4] mb-2 group-hover:text-[#D4B680] transition-colors duration-300"
-                    style={{ fontFamily: "var(--font-bodoni), serif" }}
+                    style={{ fontFamily: "var(--font-audrey), serif" }}
                   >
                     {service.title}
                   </h3>

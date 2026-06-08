@@ -44,7 +44,7 @@ export default function Projects() {
           </div>
           <h2
             className="text-3xl lg:text-4xl font-normal text-[#F4F0E4]"
-            style={{ fontFamily: "var(--font-bodoni), serif" }}
+            style={{ fontFamily: "var(--font-audrey), serif" }}
           >
             Work That Speaks
             <br />
@@ -70,7 +70,7 @@ export default function Projects() {
                 </div>
                 <h3
                   className="text-2xl font-normal text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
-                  style={{ fontFamily: "var(--font-bodoni), serif" }}
+                  style={{ fontFamily: "var(--font-audrey), serif" }}
                 >
                   {project.title}
                 </h3>

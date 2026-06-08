@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <Image
-              src="/logo-white.png"
+              src="/logo-transparent.png"
               alt="Harvey James Management"
               width={100}
               height={51}
