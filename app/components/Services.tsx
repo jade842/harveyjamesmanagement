@@ -60,7 +60,7 @@ export default function Services() {
 
             <div className="relative mt-8 h-72 overflow-hidden hidden lg:block">
               <Image
-                src="/Photo 16-9-2022, 7 35 25 pm.jpg"
+                src="/RubyRyanPhoto_0029.jpg"
                 alt="Harvey James Management"
                 fill
                 className="object-cover object-center"
