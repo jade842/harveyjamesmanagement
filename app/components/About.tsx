@@ -5,24 +5,36 @@ export default function About() {
     <section id="about" className="py-24 bg-[#F4F0E4] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: headshot */}
-          <div className="flex justify-center lg:justify-start">
-            <div className="relative w-72 lg:w-full max-w-sm">
-              <div className="absolute -top-3 -right-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
+          {/* Left: images */}
+          <div className="flex justify-center lg:justify-start gap-4">
+            {/* Headshot */}
+            <div className="relative w-48 lg:w-56 shrink-0">
+              <div className="absolute -top-3 -left-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
                 <Image
                   src="/Headshot.jpg"
                   alt="Jade Harvey-James, Founder & Principal of Harvey James Management"
                   fill
                   className="object-cover object-top"
-                  sizes="(max-width: 768px) 288px, 400px"
+                  sizes="224px"
                   priority
                 />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#111111]/80 to-transparent px-5 py-5">
-                <p className="text-[#F4F0E4] font-medium text-sm">Jade Harvey-James</p>
-                <p className="text-[#D4B680] text-xs tracking-widest uppercase mt-0.5">Founder & Principal</p>
+              <div className="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-[#111111]/80 to-transparent px-4 py-4">
+                <p className="text-[#F4F0E4] font-medium text-xs">Jade Harvey-James</p>
+                <p className="text-[#D4B680] text-[10px] tracking-widest uppercase mt-0.5">Founder & Principal</p>
               </div>
+            </div>
+            {/* Backstage */}
+            <div className="relative flex-1 overflow-hidden aspect-[3/4] mt-8 hidden sm:block">
+              <Image
+                src="/Photo 16-9-2022, 7 25 26 pm.jpg"
+                alt="Behind the scenes at a fashion event"
+                fill
+                className="object-cover object-center"
+                sizes="300px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1F1F1C]/40 to-transparent" />
             </div>
           </div>
 

@@ -52,10 +52,10 @@ export default function Talent() {
           {/* Middle — image */}
           <div className="relative h-[480px] overflow-hidden hidden lg:block">
             <Image
-              src="/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg"
+              src="/Lasca New Sonia PORTFOLIO.jpg"
               alt="Fashion talent"
               fill
-              className="object-cover object-[center_90%]"
+              className="object-cover object-[center_30%]"
               sizes="400px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#F4F0E4]/20 to-transparent" />
