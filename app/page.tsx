@@ -2,6 +2,7 @@ import Nav from "@/app/components/Nav";
 import Hero from "@/app/components/Hero";
 import About from "@/app/components/About";
 import Services from "@/app/components/Services";
+import Events from "@/app/components/Events";
 import Talent from "@/app/components/Talent";
 import Projects from "@/app/components/Projects";
 import Gallery from "@/app/components/Gallery";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <Events />
         <Talent />
         <Projects />
         <Gallery />
