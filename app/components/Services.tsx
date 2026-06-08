@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   {
     number: "01",
@@ -55,6 +57,28 @@ export default function Services() {
             >
               Discuss Your Brief
             </a>
+
+            {/* Images */}
+            <div className="mt-8 flex gap-3">
+              <div className="relative flex-1 h-48 overflow-hidden">
+                <Image
+                  src="/_MG_9870.jpg"
+                  alt="Event services"
+                  fill
+                  className="object-cover object-center"
+                  sizes="200px"
+                />
+              </div>
+              <div className="relative flex-1 h-48 overflow-hidden">
+                <Image
+                  src="/_MG_9971.jpg"
+                  alt="Event services"
+                  fill
+                  className="object-cover object-center"
+                  sizes="200px"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Right: service list */}
