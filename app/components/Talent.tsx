@@ -52,7 +52,7 @@ export default function Talent() {
           {/* Middle — image */}
           <div className="relative h-[480px] overflow-hidden hidden lg:block">
             <Image
-              src="/_MG_9870.jpg"
+              src="/_MG_9971.jpg"
               alt="Fashion talent"
               fill
               className="object-cover object-[center_20%]"
