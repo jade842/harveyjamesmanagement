@@ -14,8 +14,15 @@ const images = [
   { src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg", alt: "Models backstage", aspect: "w-56" },
   { src: "/_MG_9971.jpg", alt: "Event talent", aspect: "w-64" },
   { src: "/Jypsea 76.jpg", alt: "Model", aspect: "w-48" },
+  { src: "/Photo 12-6-21, 4 56 57 pm.jpg", alt: "Event talent", aspect: "w-72" },
   { src: "/Katie81 (5).jpg", alt: "Model", aspect: "w-56" },
+  { src: "/Pageant Girls 2016.jpg", alt: "Pageant talent", aspect: "w-64" },
   { src: "/KatieWindow-11 (3).jpg", alt: "Model", aspect: "w-64" },
+  { src: "/Photo 16-9-2022, 7 35 25 pm.jpg", alt: "Event backstage", aspect: "w-56" },
+  { src: "/Photo 12-6-21, 5 25 04 pm.jpg", alt: "Event talent", aspect: "w-72" },
+  { src: "/Photo 16-9-2022, 7 35 27 pm.jpg", alt: "Event backstage", aspect: "w-48" },
+  { src: "/On memory 2021 flowers.jpg", alt: "Event detail", aspect: "w-56" },
+  { src: "/Photo 5-10-21, 1 50 19 pm.jpg", alt: "Event", aspect: "w-64" },
 ];
 
 export default function Gallery() {
