@@ -19,13 +19,19 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <LogoDivider />
+        <LogoDivider dark={true} />
         <Services />
+        <LogoDivider dark={false} />
         <Events />
+        <LogoDivider dark={true} />
         <Talent />
+        <LogoDivider dark={true} />
         <Projects />
+        <LogoDivider dark={false} />
         <VideoShowreel />
+        <LogoDivider dark={true} />
         <Testimonials />
+        <LogoDivider dark={true} />
         <Gallery />
         <Contact />
       </main>
