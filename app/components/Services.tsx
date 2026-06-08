@@ -3,79 +3,96 @@ const services = [
     number: "01",
     title: "Talent Procurement",
     description:
-      "End-to-end sourcing of the right talent for your event — tapping our national network to find performers, hosts and specialists who match your brief precisely.",
+      "End-to-end sourcing of the right talent for your event — performers, hosts and specialists who match your brief precisely.",
   },
   {
     number: "02",
     title: "Fashion Events & Production",
     description:
-      "Full event production and backstage management for fashion events — from runway logistics and talent coordination to creative programming and on-day execution.",
+      "Full production and backstage management for fashion events — runway logistics, talent coordination and on-day execution.",
   },
   {
     number: "03",
     title: "Personalised Retreats",
     description:
-      "Curated retreat experiences designed and delivered end to end — talent, programming, logistics and on-site management for intimate, high-quality events.",
+      "Curated retreat experiences delivered end to end — talent, programming, logistics and on-site management.",
   },
   {
     number: "04",
     title: "Onsite Talent Management",
     description:
-      "Full onsite management of your complete talent portfolio — briefings, logistics, scheduling and on-day coordination across single or multi-venue events.",
+      "Full onsite management of your complete talent portfolio across single or multi-venue events.",
   },
   {
     number: "05",
     title: "Brand Activations",
     description:
-      "Bespoke talent solutions for brand activations and experiential campaigns — ambassadors, hosts and performers who bring your brand to life at any scale.",
+      "Talent solutions for brand activations and experiential campaigns — ambassadors, hosts and performers at any scale.",
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-[#111111] relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(212,182,128,0.05)_0%,transparent_60%)]" />
+    <section id="services" className="py-24 bg-[#F4F0E4]">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-14">
+        <div className="mb-14">
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="h-px w-8 bg-[#D4B680]" />
-            <span className="text-[10px] font-semibold tracking-[0.4em] text-[#D4B680] uppercase">
+            <span className="text-[10px] font-semibold tracking-[0.4em] text-[#b89660] uppercase">
               What We Do
             </span>
-            <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-normal text-[#F4F0E4]"
+            className="text-3xl lg:text-4xl font-normal text-[#111111]"
             style={{ fontFamily: "var(--font-bodoni), serif" }}
           >
             Our Services
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5">
-          {services.map((service, idx) => (
+        <div className="divide-y divide-[#D4B680]/30">
+          {services.map((service) => (
             <div
               key={service.number}
-              className={`group p-8 bg-[#111111] hover:bg-[#1a1a1a] transition-colors duration-300 ${
-                idx === 4 ? "md:col-span-2 lg:col-span-1" : ""
-              }`}
+              className="group grid grid-cols-[3rem_1fr] lg:grid-cols-[3rem_1fr_2fr] gap-6 lg:gap-12 py-8 items-start"
             >
-              <div
-                className="text-4xl font-normal text-[#D4B680]/15 group-hover:text-[#D4B680]/30 transition-colors duration-300 mb-5 leading-none"
-                style={{ fontFamily: "var(--font-bodoni), serif" }}
+              {/* Number */}
+              <span
+                className="text-sm font-medium text-[#D4B680] pt-1"
+                style={{ fontFamily: "var(--font-poppins), sans-serif", letterSpacing: "0.1em" }}
               >
                 {service.number}
-              </div>
+              </span>
+
+              {/* Title */}
               <h3
-                className="text-[#F4F0E4] font-normal text-lg mb-3"
+                className="text-xl lg:text-2xl font-normal text-[#111111] group-hover:text-[#D4B680] transition-colors duration-300"
                 style={{ fontFamily: "var(--font-bodoni), serif" }}
               >
                 {service.title}
               </h3>
-              <p className="text-[#a89f8c] text-sm leading-relaxed">{service.description}</p>
+
+              {/* Description — hidden on mobile, shown on lg */}
+              <p className="hidden lg:block text-[#5a5248] text-sm leading-relaxed pt-1.5">
+                {service.description}
+              </p>
+
+              {/* Description — shown on mobile below title */}
+              <p className="lg:hidden text-[#5a5248] text-sm leading-relaxed col-start-2">
+                {service.description}
+              </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-[#D4B680]/30">
+          <a
+            href="#contact"
+            className="inline-block px-8 py-3.5 text-xs font-semibold tracking-widest uppercase bg-[#111111] text-[#F4F0E4] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
+          >
+            Discuss Your Brief
+          </a>
         </div>
       </div>
     </section>
