@@ -52,7 +52,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#services"
-            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#1a1a1a] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
+            className="px-8 py-4 text-sm font-semibold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
           >
             Our Services
           </a>
@@ -84,7 +84,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#1a1a1a] to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#111111] to-transparent" />
     </section>
   );
 }

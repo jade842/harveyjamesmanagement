@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -33,7 +34,7 @@ export default function Nav() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#1a1a1a]/95 backdrop-blur-md border-b border-[#D4B680]/20 shadow-2xl"
+          ? "bg-[#111111]/95 backdrop-blur-md border-b border-[#D4B680]/20 shadow-2xl"
           : "bg-transparent"
       }`}
     >
@@ -43,16 +44,16 @@ export default function Nav() {
           <a
             href="#hero"
             onClick={(e) => handleNavClick(e, "#hero")}
-            className="flex flex-col items-start leading-none group"
+            className="flex items-center"
           >
-            <div className="flex items-center gap-0" style={{ fontFamily: "var(--font-bodoni), serif" }}>
-              <span className="text-lg font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>Harvey</span>
-              <span className="mx-2.5 text-[#D4B680] font-light" style={{ fontSize: "1.1rem" }}>|</span>
-              <span className="text-lg font-normal text-white uppercase" style={{ letterSpacing: "0.18em" }}>James</span>
-            </div>
-            <span className="text-[9px] font-medium text-[#D4B680] uppercase mt-1" style={{ letterSpacing: "0.4em", fontFamily: "var(--font-poppins), sans-serif" }}>
-              Management
-            </span>
+            <Image
+              src="/logo-white.png"
+              alt="Harvey James Management"
+              width={120}
+              height={61}
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </a>
 
           {/* Desktop Nav */}
@@ -82,7 +83,7 @@ export default function Nav() {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
-              className="ml-2 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200 rounded-sm"
+              className="ml-2 px-6 py-2.5 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm"
             >
               Get in Touch
             </a>
@@ -113,7 +114,7 @@ export default function Nav() {
           menuOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
-        <div className="bg-[#1a1a1a]/98 backdrop-blur-md border-t border-[#D4B680]/20 px-6 py-6 flex flex-col gap-5">
+        <div className="bg-[#111111]/98 backdrop-blur-md border-t border-[#D4B680]/20 px-6 py-6 flex flex-col gap-5">
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -127,7 +128,7 @@ export default function Nav() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, "#contact")}
-            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#1a1a1a] transition-all duration-200 rounded-sm text-center"
+            className="mt-2 px-6 py-3 text-sm font-semibold tracking-wide uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm text-center"
           >
             Get in Touch
           </a>

@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-[#1a1a1a] relative overflow-hidden">
+    <section id="services" className="py-24 bg-[#111111] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(212,182,128,0.05)_0%,transparent_60%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -57,7 +57,7 @@ export default function Services() {
           {services.map((service, idx) => (
             <div
               key={service.number}
-              className={`group p-8 bg-[#1a1a1a] hover:bg-[#222222] transition-colors duration-300 ${
+              className={`group p-8 bg-[#111111] hover:bg-[#1a1a1a] transition-colors duration-300 ${
                 idx === 4 ? "md:col-span-2 lg:col-span-1" : ""
               }`}
             >

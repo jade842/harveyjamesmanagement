@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --charcoal: #1a1a1a;
+  --charcoal: #111111;
   --charcoal-light: #242424;
-  --charcoal-mid: #212121;
+  --charcoal-mid: #161616;
   --gold: #D4B680;
   --gold-light: #e8cfa0;
   --gold-dark: #b89660;
@@ -25,11 +25,13 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #111111;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--charcoal);
-  color: var(--white);
+  background-color: #111111;
+  color: #ffffff;
   font-family: var(--font-poppins, Arial, Helvetica, sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,7 +61,7 @@ body {
   background:
     radial-gradient(ellipse at 20% 50%, rgba(212, 182, 128, 0.07) 0%, transparent 60%),
     radial-gradient(ellipse at 80% 20%, rgba(212, 182, 128, 0.04) 0%, transparent 50%),
-    linear-gradient(160deg, #1a1a1a 0%, #222222 40%, #181818 100%);
+    linear-gradient(160deg, #111111 0%, #1a1a1a 40%, #0e0e0e 100%);
 }
 
 .card-hover {

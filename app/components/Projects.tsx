@@ -90,7 +90,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 bg-[#222222] relative overflow-hidden">
+    <section id="projects" className="py-20 bg-[#1a1a1a] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(212,182,128,0.06)_0%,transparent_55%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
@@ -118,7 +118,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="border border-[#D4B680]/20 rounded-sm overflow-hidden bg-[#1a1a1a]"
+              className="border border-[#D4B680]/20 rounded-sm overflow-hidden bg-[#111111]"
             >
               {/* Card header */}
               <div className="bg-gradient-to-r from-[#D4B680]/12 to-[#D4B680]/4 border-b border-[#D4B680]/20 p-8 md:p-10">
@@ -128,7 +128,7 @@ export default function Projects() {
                       key={tag}
                       className={`px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-sm ${
                         i === 0
-                          ? "bg-[#D4B680] text-[#1a1a1a]"
+                          ? "bg-[#D4B680] text-[#111111]"
                           : "border border-[#D4B680]/40 text-[#D4B680]"
                       }`}
                     >
@@ -186,7 +186,7 @@ export default function Projects() {
                         </h4>
                         <div className="space-y-3">
                           {project.locations.map((loc) => (
-                            <div key={loc.city} className="p-4 border border-white/8 rounded-sm bg-[#222222]/50">
+                            <div key={loc.city} className="p-4 border border-white/8 rounded-sm bg-[#1a1a1a]/50">
                               <div className="text-[#D4B680] text-xs font-bold tracking-widest uppercase mb-1">{loc.city}</div>
                               <p className="text-[#a89f8c] text-xs leading-relaxed">{loc.detail}</p>
                             </div>
@@ -225,7 +225,7 @@ export default function Projects() {
           </p>
           <a
             href="#contact"
-            className="inline-block mt-6 px-8 py-3.5 text-xs font-semibold tracking-widest uppercase bg-[#D4B680] text-[#1a1a1a] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
+            className="inline-block mt-6 px-8 py-3.5 text-xs font-semibold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm shadow-lg shadow-[#D4B680]/20"
           >
             Start the Conversation
           </a>
