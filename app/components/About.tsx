@@ -42,19 +42,13 @@ export default function About() {
               <br />Delivered End to End
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              Harvey James Management is a national talent and event services agency founded and led
-              by Jade Harvey-James. We source, contract and manage talent across a broad range of
-              categories for major events, brand activations, sporting events, conferences and
-              corporate experiences nationwide.
+              Harvey James Management is a national talent and event services agency founded by Jade Harvey-James — built on a genuine love for events, deep industry relationships and a commitment to getting every detail right.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              Beyond talent, we execute select events in full — specialising in fashion events and
-              production, backstage management, personalised retreats and onsite management of
-              complete talent portfolios.
+              We specialise in sourcing, contracting and managing talent across every category — from MCs and cultural performers to promotional staff and brand ambassadors — for major sporting events, brand activations, conferences and corporate experiences nationwide.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
-              Jade brings a background in performance, commercial operations and founder-led
-              businesses — and deep industry relationships built over years of national event delivery.
+              For select clients, we go further — taking full ownership of fashion events, backstage production, personalised retreats and complete onsite talent management. Whatever the brief, we bring the people, the process and the precision to make it happen.
             </p>
             <a
               href="#contact"
