@@ -43,12 +43,12 @@ export default function Projects() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-normal text-[#F4F0E4]"
-            style={{ fontFamily: "var(--font-audrey), serif" }}
+            className="text-3xl lg:text-4xl font-bold text-[#F4F0E4]"
+            style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Work That Speaks
             <br />
-            <span className="text-gold-gradient">For Itself</span>
+            <span className="text-gold-gradient" style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>For Itself</span>
           </h2>
         </div>
 
@@ -69,8 +69,8 @@ export default function Projects() {
                   ))}
                 </div>
                 <h3
-                  className="text-2xl font-normal text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
-                  style={{ fontFamily: "var(--font-audrey), serif" }}
+                  className="text-2xl font-bold text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
+                  style={{ fontFamily: "var(--font-poppins), sans-serif" }}
                 >
                   {project.title}
                 </h3>

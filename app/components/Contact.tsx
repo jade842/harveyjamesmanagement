@@ -18,8 +18,8 @@ export default function Contact() {
         </div>
 
         <h2
-          className="text-4xl lg:text-5xl font-normal text-[#F4F0E4] mb-6 leading-tight"
-          style={{ fontFamily: "var(--font-audrey), serif" }}
+          className="text-4xl lg:text-5xl font-bold text-[#F4F0E4] mb-6 leading-tight"
+          style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           Ready to Elevate
           <br />

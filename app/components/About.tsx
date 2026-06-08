@@ -35,8 +35,8 @@ export default function About() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-normal text-[#111111] mb-6 leading-tight"
-              style={{ fontFamily: "var(--font-audrey), serif" }}
+              className="text-3xl lg:text-4xl font-bold text-[#111111] mb-6 leading-tight"
+              style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Talent & Event Solutions,
               <br />Delivered End to End

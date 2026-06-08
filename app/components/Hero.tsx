@@ -33,12 +33,12 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-normal leading-[1.05] mb-8 text-[#F4F0E4]"
-          style={{ fontFamily: "var(--font-audrey), serif" }}
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] mb-8 text-[#F4F0E4]"
+          style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           The Right Talent.
           <br />
-          <span className="text-gold-gradient">Every Event.</span>
+          <span className="text-gold-gradient" style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>Every Event.</span>
         </h1>
 
         {/* Subheadline */}

@@ -41,8 +41,8 @@ export default function Services() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-normal text-[#F4F0E4] mb-6"
-              style={{ fontFamily: "var(--font-audrey), serif" }}
+              className="text-3xl lg:text-4xl font-bold text-[#F4F0E4] mb-6"
+              style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Our Services
             </h2>
@@ -69,8 +69,8 @@ export default function Services() {
                 </span>
                 <div>
                   <h3
-                    className="text-xl font-normal text-[#F4F0E4] mb-2 group-hover:text-[#D4B680] transition-colors duration-300"
-                    style={{ fontFamily: "var(--font-audrey), serif" }}
+                    className="text-xl font-bold text-[#F4F0E4] mb-2 group-hover:text-[#D4B680] transition-colors duration-300"
+                    style={{ fontFamily: "var(--font-poppins), sans-serif" }}
                   >
                     {service.title}
                   </h3>
