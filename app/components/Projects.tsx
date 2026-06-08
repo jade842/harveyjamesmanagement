@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = [
   {
     tags: ["Sporting Event", "Multi-City", "2026"],
@@ -5,6 +7,7 @@ const projects = [
     subtitle: "Fan Zone Talent & Activation",
     scope: "Sourced, contracted and managed a full talent workforce across three Fan Zones in Perth, Sydney and the Gold Coast — cultural performers, MCs, DJs, musicians, promotional staff and mascot performers across the tournament run.",
     talentCategories: ["Cultural Performers", "MCs & Event Hosts", "DJs & Musicians", "Promotional Staff", "Mascot Performers", "Brand Ambassadors"],
+    image: null,
   },
   {
     tags: ["Fashion Event", "Production"],
@@ -12,6 +15,7 @@ const projects = [
     subtitle: "Talent Procurement & Backstage Management",
     scope: "End-to-end talent procurement and on-the-day coordination for one of Australia's most distinctive regional fashion festivals — models, hosts and promotional staff managed across the full program.",
     talentCategories: ["Fashion Models", "Promotional Staff", "Event Hosts"],
+    image: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg",
   },
   {
     tags: ["Trade Expo", "Brand Activation"],
@@ -19,6 +23,7 @@ const projects = [
     subtitle: "Promotional Staff & Brand Ambassadors",
     scope: "Supplied and managed a professional team of promotional staff and brand ambassadors briefed to represent Mitre 10 at trade level — one point of contact from sourcing through to event day.",
     talentCategories: ["Brand Ambassadors", "Promotional Staff"],
+    image: null,
   },
   {
     tags: ["Racing", "Event Activation"],
@@ -26,6 +31,7 @@ const projects = [
     subtitle: "Event Activation & Talent Management",
     scope: "Sourced and managed talent for race day activations and hospitality experiences — hosts, promotional staff and entertainers curated to deliver a premium raceday atmosphere.",
     talentCategories: ["Event Hosts & MCs", "Promotional Staff", "Entertainers", "Brand Ambassadors"],
+    image: null,
   },
 ];
 
@@ -54,36 +60,51 @@ export default function Projects() {
 
         <div className="divide-y divide-[#D4B680]/20">
           {projects.map((project) => (
-            <div key={project.title} className="group py-8 grid md:grid-cols-[2fr_1fr] gap-8 items-start">
-              <div>
-                <div className="flex flex-wrap gap-2 mb-3">
-                  {project.tags.map((tag, i) => (
-                    <span
-                      key={tag}
-                      className={`text-[10px] font-medium tracking-widest uppercase px-2.5 py-0.5 ${
-                        i === 0 ? "bg-[#D4B680] text-[#111111]" : "border border-[#D4B680]/40 text-[#8a7a60]"
-                      }`}
-                    >
-                      {tag}
+            <div key={project.title} className="group py-8">
+              <div className="grid md:grid-cols-[2fr_1fr] gap-8 items-start">
+                <div>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    {project.tags.map((tag, i) => (
+                      <span
+                        key={tag}
+                        className={`text-[10px] font-medium tracking-widest uppercase px-2.5 py-0.5 ${
+                          i === 0 ? "bg-[#D4B680] text-[#111111]" : "border border-[#D4B680]/40 text-[#8a7a60]"
+                        }`}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <h3
+                    className="text-2xl font-bold text-[#3a3530] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
+                    style={{ fontFamily: "var(--font-poppins), sans-serif" }}
+                  >
+                    {project.title}
+                  </h3>
+                  <p className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680] mb-4">{project.subtitle}</p>
+                  <p className="text-[#5a5248] text-sm leading-relaxed">{project.scope}</p>
+                </div>
+                <div className="flex flex-wrap gap-1.5 md:justify-end md:pt-2">
+                  {project.talentCategories.map((cat) => (
+                    <span key={cat} className="text-[10px] tracking-wide text-[#8a7a60] border border-[#D4B680]/30 px-2 py-0.5">
+                      {cat}
                     </span>
                   ))}
                 </div>
-                <h3
-                  className="text-2xl font-bold text-[#3a3530] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
-                  style={{ fontFamily: "var(--font-poppins), sans-serif" }}
-                >
-                  {project.title}
-                </h3>
-                <p className="text-[10px] font-medium tracking-widest uppercase text-[#D4B680] mb-4">{project.subtitle}</p>
-                <p className="text-[#5a5248] text-sm leading-relaxed">{project.scope}</p>
               </div>
-              <div className="flex flex-wrap gap-1.5 md:justify-end md:pt-2">
-                {project.talentCategories.map((cat) => (
-                  <span key={cat} className="text-[10px] tracking-wide text-[#a89f8c] border border-[#F4F0E4]/15 px-2 py-0.5">
-                    {cat}
-                  </span>
-                ))}
-              </div>
+
+              {project.image && (
+                <div className="mt-6 relative w-full h-72 overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 768px) 100vw, 900px"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#F4F0E4]/30 to-transparent" />
+                </div>
+              )}
             </div>
           ))}
         </div>
