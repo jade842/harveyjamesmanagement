@@ -6,15 +6,17 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background image */}
-      <Image
-        src="/385_HiRes.jpg"
-        alt=""
-        fill
-        className="object-contain object-center"
-        priority
-        sizes="100vw"
-      />
+      {/* Background image — expanded canvas to reduce zoom */}
+      <div className="absolute -inset-24">
+        <Image
+          src="/385_HiRes.jpg"
+          alt=""
+          fill
+          className="object-cover object-center"
+          priority
+          sizes="100vw"
+        />
+      </div>
 
       {/* Dark overlay for text legibility */}
       <div className="absolute inset-0 bg-[#1F1F1C]/60" />
