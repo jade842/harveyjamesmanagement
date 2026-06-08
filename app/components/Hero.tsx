@@ -1,25 +1,26 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="hero-bg relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Decorative grid overlay */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(212,182,128,1) 1px, transparent 1px), linear-gradient(90deg, rgba(212,182,128,1) 1px, transparent 1px)",
-          backgroundSize: "80px 80px",
-        }}
+      {/* Background image */}
+      <Image
+        src="/385_HiRes.jpg"
+        alt=""
+        fill
+        className="object-cover object-center"
+        priority
+        sizes="100vw"
       />
 
-      {/* Decorative orb */}
-      <div className="absolute top-1/3 right-1/4 w-96 h-96 rounded-full bg-[#D4B680]/5 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 left-1/3 w-64 h-64 rounded-full bg-[#D4B680]/4 blur-3xl pointer-events-none" />
+      {/* Dark overlay for text legibility */}
+      <div className="absolute inset-0 bg-[#1F1F1C]/60" />
 
       {/* Gold accent line left */}
-      <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#D4B680]/30 to-transparent hidden lg:block" />
+      <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#D4B680]/40 to-transparent hidden lg:block" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-20 text-center">
         {/* Eyebrow */}
@@ -33,16 +34,18 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 text-[#1F1F1C]"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 text-[#F4F0E4]"
           style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           The Right Talent.
           <br />
-          <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>Every Event.</span>
+          <span className="text-[#D4B680]" style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400" }}>
+            Every Event.
+          </span>
         </h1>
 
         {/* Subheadline */}
-        <p className="max-w-xl mx-auto text-base sm:text-lg text-[#5a5248] leading-relaxed mb-12">
+        <p className="max-w-xl mx-auto text-base sm:text-lg text-[#c8bfb0] leading-relaxed mb-12">
           We source, contract and manage talent across every category — for brand activations,
           sporting events, conferences, corporate experiences and more. Where needed, we also
           deliver select events in full.
@@ -58,7 +61,7 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200 rounded-sm"
+            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-white/40 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
           >
             Contact Us
           </a>
@@ -67,24 +70,14 @@ export default function Hero() {
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
           <span className="text-xs tracking-widest text-[#a89f8c] uppercase">Scroll</span>
-          <svg
-            className="w-4 h-4 text-[#D4B680]"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
+          <svg className="w-4 h-4 text-[#D4B680]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </div>
       </div>
 
-      {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#F4F0E4] to-transparent" />
+      {/* Bottom fade to eggshell */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F4F0E4] to-transparent" />
     </section>
   );
 }
