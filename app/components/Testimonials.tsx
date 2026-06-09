@@ -1,33 +1,33 @@
 const testimonials = [
   {
-    quote: "So much work went into the lead-up to Power Up Bali 2026, and your contributions were essential in creating the amazing environment that made the event such a success. Without your incredible insight and attention to detail, we would not have received such fantastic feedback from the attendees. We particularly appreciated your calmness when dealing with challenges behind the scenes — you always achieved the best outcome with a friendly smile, incredible poise, and style.",
+    quote: "Your contributions were essential in creating the environment that made our event such a success. Without your insight and attention to detail, we would not have received such exceptional feedback from attendees. We particularly valued your composure when navigating challenges behind the scenes — you consistently achieved the best outcome with poise, professionalism and style.",
     name: "Brian & Jane",
-    context: "Power Up Bali 2026",
+    context: "International Educational Retreat, 2026",
   },
   {
-    quote: "Harvey James offers young aspiring models an authentic pathway into the modelling industry, one unlike any other company I have been involved with before. With the help of Harvey James, I have already been cast for 3 major campaigns. Jade is so easy to talk to and makes the effort to connect with all her models, ensuring our feelings are always taken into consideration.",
+    quote: "Harvey James offers an authentic pathway into the industry unlike any other agency I have encountered. The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring every talent feels heard and valued. Since signing, I have been placed in three major campaigns.",
     name: "Amanda G",
-    context: "Tasmania",
+    context: "Talent, Tasmania",
   },
   {
-    quote: "Jade has been amazing so far! I love her energy and I am looking forward to continuing to grow with her and Harvey James Management!",
+    quote: "Working with Jade and the Harvey James team has been an outstanding experience. Her professionalism, dedication and genuine investment in her talent sets her apart. I look forward to a long and successful partnership.",
     name: "Prince I",
-    context: "Perth",
+    context: "Talent, Perth",
   },
   {
-    quote: "Jade and HJM have been wonderful to me and given me some great opportunities that I'm very grateful for and very excited to continue. HJM are very warm and welcoming and I can't wait to work with them more very soon.",
+    quote: "Harvey James Management has opened doors I didn't anticipate and handled every opportunity with care and professionalism. The team is genuinely invested in your success — warm, considered and a pleasure to work with at every stage.",
     name: "Saul P",
-    context: "Perth",
+    context: "Talent, Perth",
   },
   {
-    quote: "Jade is super friendly and has been great with being transparent and informative.",
+    quote: "Jade communicates with clarity and integrity — always transparent, always responsive. A refreshing standard of professionalism in this industry.",
     name: "Riley N",
-    context: "Tasmania",
+    context: "Talent, Tasmania",
   },
   {
-    quote: "I believe one of Jade's greatest strengths as an agent is her approachability — she is accessible and prompt to respond, welcoming whenever we meet. I no longer feel the need to accompany Alana to events if her or her team are in attendance as I trust my daughter will be cared for.",
+    quote: "One of Jade's greatest strengths is her approachability — she is always accessible and prompt to respond. I no longer feel the need to accompany my daughter to events when Jade or her team are present. That level of trust is not easily earned.",
     name: "Belinda M",
-    context: "Perth, on behalf of her daughter Alana M",
+    context: "Perth, on behalf of Alana M",
   },
 ];
 
