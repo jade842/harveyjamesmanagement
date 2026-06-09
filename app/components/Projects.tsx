@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const projects = [
   {
-    tags: ["Educational Retreat", "Full Production", "Bali"],
+    tags: ["Educational Retreat", "Full Production", "International"],
     title: "International Educational Retreat",
     subtitle: "Full Event Production & Speaker Management",
-    scope: "End-to-end production of a 65-person international educational retreat in Bali — managing the complete event from pre-production through to on-the-ground execution. Responsibilities spanned speaker sourcing and management, full program coordination, logistics, scheduling and on-site talent management across the retreat run.",
+    scope: "End-to-end production of a 65-person international educational retreat — managing the complete event from pre-production through to on-the-ground execution. Responsibilities spanned speaker sourcing and management, full program coordination, logistics, scheduling and on-site talent management across the retreat run.",
     talentCategories: ["Speaker Management", "Program Coordination", "Full Production", "On-Site Management", "Logistics", "Pre-Production"],
   },
   {
