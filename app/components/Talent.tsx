@@ -15,7 +15,7 @@ const talentTypes = [
 
 export default function Talent() {
   return (
-    <section id="talent" className="py-24 bg-[#F4F0E4] relative overflow-hidden">
+    <section id="talent" className="py-32 bg-[#F4F0E4] relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4B680]/10 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -29,7 +29,7 @@ export default function Talent() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-6 leading-tight"
+              className="text-4xl lg:text-5xl font-bold text-[#1F1F1C] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               The Range of Talent

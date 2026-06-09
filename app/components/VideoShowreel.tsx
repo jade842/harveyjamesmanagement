@@ -1,6 +1,6 @@
 export default function VideoShowreel() {
   return (
-    <section className="py-24 bg-[#F4F0E4] relative overflow-hidden">
+    <section className="py-32 bg-[#F4F0E4] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,182,128,0.08)_0%,transparent_70%)]" />
 
       <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
@@ -13,7 +13,7 @@ export default function VideoShowreel() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-4"
+            className="text-4xl lg:text-5xl font-bold text-[#1F1F1C] mb-4"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Watch Us

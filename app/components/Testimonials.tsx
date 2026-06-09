@@ -33,7 +33,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-[#1F1F1C] relative overflow-hidden">
+    <section className="py-32 bg-[#1F1F1C] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,182,128,0.05)_0%,transparent_70%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -46,7 +46,7 @@ export default function Testimonials() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-3xl lg:text-4xl font-bold text-[#F4F0E4]"
+            className="text-4xl lg:text-5xl font-bold text-[#F4F0E4]"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             What Our Clients

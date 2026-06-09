@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-[#F4F0E4] relative overflow-hidden">
+    <section id="about" className="py-32 bg-[#F4F0E4] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: headshot */}
@@ -35,7 +35,7 @@ export default function About() {
               </span>
             </div>
             <h2
-              className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-6 leading-tight"
+              className="text-4xl lg:text-5xl font-bold text-[#1F1F1C] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Talent & Event Solutions,
