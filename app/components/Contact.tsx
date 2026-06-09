@@ -53,7 +53,7 @@ ${message}`;
             <span className="text-gold-gradient">Your Next Event?</span>
           </h2>
           <p className="text-[#a89f8c] text-lg leading-relaxed max-w-xl mx-auto">
-            Whether you have a detailed brief or just an idea, we&apos;d love to hear from you.
+            Whether you have a detailed brief or just a vision — a retreat, an experience, an event — tell us what you&apos;re imagining and we&apos;ll take it from there.
           </p>
         </div>
 
@@ -119,6 +119,7 @@ ${message}`;
                         <option value="">Select an option</option>
                         <option>Talent Procurement</option>
                         <option>Fashion Event & Production</option>
+                        <option>Retreat or Immersive Experience</option>
                         <option>Personalised Curated Experience</option>
                         <option>Onsite Talent Management</option>
                         <option>Brand Activation</option>
@@ -132,7 +133,7 @@ ${message}`;
                       name="message"
                       required
                       rows={5}
-                      placeholder="Tell us about your event, timeline and any specific requirements..."
+                      placeholder="Tell us about your vision — what you're creating, your timeline, and what matters most to you..."
                       className="w-full bg-[#1F1F1C] border border-[#D4B680]/30 px-4 py-3 text-sm text-[#F4F0E4] placeholder-[#a89f8c] focus:outline-none focus:border-[#D4B680] transition-colors resize-none"
                     />
                   </div>
