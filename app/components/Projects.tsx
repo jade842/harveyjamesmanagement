@@ -20,16 +20,6 @@ const projects = [
     imagePosition: "object-[center_20%]",
   },
   {
-    tags: ["Trade Expo", "Brand Activation"],
-    title: "Mitre 10 Expo",
-    subtitle: "Promotional Staff & Brand Ambassadors",
-    scope: "Managed ticket sales, entertainment and pre-production, event hosts and prize coordination — delivering a seamless experience from planning through to event day.",
-    talentCategories: ["Event Hosts", "Entertainment", "Promotional Staff", "Pre-Production"],
-    image: "/CM10 Tradeshow BTS 2016.PNG",
-    imagePosition: "object-center",
-    imageScale: "scale-[1.8]",
-  },
-  {
     tags: ["Wedding Expo", "Fashion", "10 Years"],
     title: "Tasmanian Wedding Expo",
     subtitle: "Parade Direction, Models & Editorial",
