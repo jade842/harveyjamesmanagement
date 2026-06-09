@@ -19,7 +19,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] mb-8 text-[#F4F0E4]"
+          className="text-6xl sm:text-7xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] mb-8 text-[#F4F0E4]"
           style={{ fontFamily: "var(--font-poppins), sans-serif" }}
         >
           The Right Talent.
@@ -30,7 +30,7 @@ export default function Hero() {
         </h1>
 
         {/* Subheadline */}
-        <p className="text-base sm:text-lg text-[#a89f8c] leading-relaxed mb-12 max-w-md">
+        <p className="text-lg sm:text-xl text-[#a89f8c] leading-relaxed mb-12 max-w-md">
           We source, contract and manage talent across every category — for brand activations,
           sporting events, conferences, corporate experiences and more.
         </p>
@@ -39,13 +39,13 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="#services"
-            className="px-8 py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 rounded-sm"
+            className="px-10 py-5 text-sm font-bold tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200"
           >
             Our Services
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 text-sm font-medium tracking-widest uppercase border border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200 rounded-sm"
+            className="px-10 py-5 text-sm font-bold tracking-widest uppercase border-2 border-white/30 text-[#F4F0E4] hover:border-[#D4B680] hover:text-[#D4B680] transition-all duration-200"
           >
             Contact Us
           </a>

@@ -57,12 +57,12 @@ export default function Testimonials() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
-            <div key={i} className={`relative border border-[#D4B680]/15 bg-[#2a2a27]/50 p-8 flex flex-col ${i === 0 ? "md:col-span-2 lg:col-span-1" : ""}`}>
-              <div className="h-px w-8 bg-[#D4B680] mb-6" />
+            <div key={i} className={`relative border border-[#D4B680]/20 bg-[#2a2a27]/50 p-10 flex flex-col ${i === 0 ? "md:col-span-2 lg:col-span-1" : ""}`}>
+              <div className="h-0.5 w-12 bg-[#D4B680] mb-8" />
               <svg className="w-6 h-6 text-[#D4B680]/40 mb-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
-              <p className="text-[#a89f8c] text-sm leading-relaxed flex-1 mb-6 italic">
+              <p className="text-[#a89f8c] text-base leading-relaxed flex-1 mb-8 italic">
                 &ldquo;{t.quote}&rdquo;
               </p>
               <div>

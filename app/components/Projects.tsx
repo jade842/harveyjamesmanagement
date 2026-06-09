@@ -63,7 +63,7 @@ export default function Projects() {
 
         <div className="divide-y divide-[#D4B680]/15">
           {projects.map((project) => (
-            <div key={project.title} className="group py-8 grid md:grid-cols-[1fr_auto] gap-8 items-start">
+            <div key={project.title} className="group py-12 grid md:grid-cols-[1fr_auto] gap-8 items-start">
               {/* Text + categories */}
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">
@@ -79,7 +79,7 @@ export default function Projects() {
                   ))}
                 </div>
                 <h3
-                  className="text-2xl font-bold text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
+                  className="text-3xl font-bold text-[#F4F0E4] mb-1 group-hover:text-[#D4B680] transition-colors duration-300"
                   style={{ fontFamily: "var(--font-poppins), sans-serif" }}
                 >
                   {project.title}
