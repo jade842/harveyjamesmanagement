@@ -31,9 +31,9 @@ export default function Events() {
               className="text-3xl lg:text-4xl font-bold text-[#1F1F1C] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
-              Fashion. Luxury.
+              Bespoke. Considered.
               <br />
-              <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Curated.</span>
+              <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Delivered.</span>
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
               For select clients we take full ownership — fashion events and backstage production managed end to end, and personalised high-end experiences curated to the finest detail.
