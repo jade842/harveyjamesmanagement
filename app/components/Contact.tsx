@@ -5,28 +5,25 @@ import { useState } from "react";
 export default function Contact() {
   const email = "jade@harveyjamesmanagement.com.au";
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setLoading(true);
     const form = e.currentTarget;
     const data = new FormData(form);
-    const name = data.get("name") as string;
-    const from = data.get("email") as string;
-    const phone = data.get("phone") as string;
-    const eventType = data.get("eventType") as string;
-    const message = data.get("message") as string;
 
-    const body = `Hi Jade,
+    const res = await fetch("https://formspree.io/f/xvznrzez", {
+      method: "POST",
+      body: data,
+      headers: { Accept: "application/json" },
+    });
 
-Name: ${name}
-Email: ${from}
-Phone: ${phone || "Not provided"}
-Event Type: ${eventType || "Not specified"}
-
-${message}`;
-
-    window.location.href = `mailto:${email}?subject=Enquiry — Harvey James Management&body=${encodeURIComponent(body)}`;
-    setSubmitted(true);
+    setLoading(false);
+    if (res.ok) {
+      setSubmitted(true);
+      form.reset();
+    }
   }
 
   return (
@@ -71,8 +68,8 @@ ${message}`;
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-[#1F1F1C] mb-2" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>Message Ready to Send</h3>
-                  <p className="text-[#5a5248] text-sm">Your email client should have opened. We&apos;ll be in touch soon.</p>
+                  <h3 className="text-xl font-bold text-[#F4F0E4] mb-2" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>Message Sent</h3>
+                  <p className="text-[#a89f8c] text-sm">Thanks — we&apos;ll be in touch within 24 hours.</p>
                   <button onClick={() => setSubmitted(false)} className="mt-6 text-xs tracking-widest uppercase text-[#D4B680] hover:text-[#b89660] transition-colors">
                     Send Another
                   </button>
@@ -139,9 +136,10 @@ ${message}`;
                   </div>
                   <button
                     type="submit"
-                    className="w-full py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200"
+                    disabled={loading}
+                    className="w-full py-4 text-sm font-medium tracking-widest uppercase bg-[#D4B680] text-[#111111] hover:bg-[#e8cfa0] transition-all duration-200 disabled:opacity-60"
                   >
-                    Send Enquiry
+                    {loading ? "Sending..." : "Send Enquiry"}
                   </button>
                 </form>
               )}
