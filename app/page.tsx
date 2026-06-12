@@ -5,7 +5,6 @@ import Services from "@/app/components/Services";
 import LogoDivider from "@/app/components/LogoDivider";
 import Events from "@/app/components/Events";
 import Talent from "@/app/components/Talent";
-import Projects from "@/app/components/Projects";
 import VideoShowreel from "@/app/components/VideoShowreel";
 import Testimonials from "@/app/components/Testimonials";
 import Gallery from "@/app/components/Gallery";
@@ -22,9 +21,7 @@ export default function Home() {
         <Services />
         <Events />
         <Talent />
-        <LogoDivider dark={true} />
-        <Projects />
-        <VideoShowreel />
+<VideoShowreel />
         <Testimonials />
         <Gallery />
         <Contact />
