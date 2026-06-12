@@ -50,7 +50,7 @@ export default function Contact() {
             <span className="text-gold-gradient">Your Next Event?</span>
           </h2>
           <p className="text-[#a89f8c] text-lg leading-relaxed max-w-xl mx-auto">
-            Whether you have a detailed brief or just a vision — a retreat, an experience, an event — tell us what you&apos;re imagining and we&apos;ll take it from there.
+            Whether you have a detailed brief or just a vision — a curated gathering, a bespoke event, a personalised experience — tell us what you&apos;re imagining and we&apos;ll take it from there.
           </p>
         </div>
 
@@ -116,7 +116,6 @@ export default function Contact() {
                         <option value="">Select an option</option>
                         <option>Talent Procurement</option>
                         <option>Fashion Event & Production</option>
-                        <option>Retreat or Immersive Experience</option>
                         <option>Personalised Curated Experience</option>
                         <option>Onsite Talent Management</option>
                         <option>Brand Activation</option>

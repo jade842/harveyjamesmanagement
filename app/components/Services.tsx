@@ -14,7 +14,7 @@ const services = [
   {
     number: "03",
     title: "Personalised Curated Experiences",
-    description: "Bespoke experiences designed around your vision — retreats, exclusive gatherings, immersive workshops and private events, curated and delivered end to end.",
+    description: "Bespoke experiences designed around your vision — exclusive gatherings, personalised occasions and private events, curated and delivered end to end.",
   },
   {
     number: "04",
