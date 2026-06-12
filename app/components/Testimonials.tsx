@@ -1,8 +1,8 @@
 const testimonials = [
   {
     quote: "Your contributions were essential in creating the environment that made our event such a success. Without your insight and attention to detail, we would not have received such exceptional feedback from attendees. We particularly valued your composure when navigating challenges behind the scenes — you consistently achieved the best outcome with poise, professionalism and style.",
-    name: "Brian & Jane",
-    context: "International Educational Retreat, 2026",
+    name: "Corporate Retreat Company Owner",
+    context: "International Event, 2026",
   },
   {
     quote: "Harvey James offers an authentic pathway into the industry unlike any other agency I have encountered. The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring every talent feels heard and valued. Since signing, I have been placed in three major campaigns.",
