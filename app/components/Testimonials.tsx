@@ -6,12 +6,12 @@ const testimonials = [
   },
   {
     quote: "The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring everyone feels heard and valued.",
-    name: "Amanda G",
+    name: "Client",
     context: "Tasmania",
   },
   {
     quote: "One of Jade's greatest strengths is her approachability — she is always accessible and prompt to respond. That level of trust is not easily earned, and she has earned it completely.",
-    name: "Belinda M",
+    name: "Client",
     context: "Perth",
   },
 ];
