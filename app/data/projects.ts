@@ -23,7 +23,7 @@ export const projects = [
     subtitle: "Board Member & Runway Producer",
     scope: "Board-level governance and hands-on creative delivery for one of Australia's most distinctive regional fashion events — runway production, talent management, casting and end-to-end show delivery across the full festival program.",
     talentCategories: ["Fashion Models", "Runway Production", "Casting", "Backstage Management", "Event Hosts"],
-    image: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (49 of 147) (2).jpg",
+    image: "/TFF26.webp",
     imagePosition: "object-[center_20%]",
   },
   {

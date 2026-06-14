@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 const images = [
+  { src: "/TFF26.webp", alt: "Tasmanian Fashion Festival", aspect: "w-64" },
+  { src: "/tff.jpg", alt: "Tasmanian Fashion Festival", aspect: "w-56" },
   { src: "/SALLY VICTORIA COUTURE - FLOSSY PHOTO  (112 of 147).jpg", alt: "Fashion runway", aspect: "w-56" },
   { src: "/20260321-05 (1).JPG", alt: "AFC Women's Asian Cup", aspect: "w-64" },
   { src: "/TRC_Fashion_0009 (1).jpg", alt: "Tasmanian Racing Club", aspect: "w-72" },
