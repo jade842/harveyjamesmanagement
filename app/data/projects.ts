@@ -3,7 +3,7 @@ export const projects = [
     tags: ["Sporting Event", "Multi-City", "2026"],
     title: "AFC Women's Asian Cup 2026",
     subtitle: "Talent Program Lead — Fan Zone Activation",
-    scope: "361 performers delivered across three weeks and three cities — Perth, Sydney and the Gold Coast. Cultural performers, MCs, musicians, dancers and mascot minders sourced, contracted and managed across all Fan Zones, with cultural sensitivity and compliance checks maintained throughout a highly complex, politically sensitive tournament environment.",
+    scope: "361 performer shifts fulfilled across three weeks and three cities — Perth, Sydney and the Gold Coast. Cultural performers, MCs, musicians, dancers and mascot minders sourced, contracted and managed across all Fan Zones, with cultural sensitivity and compliance checks maintained throughout a highly complex, politically sensitive tournament environment.",
     talentCategories: ["Cultural Performers", "MCs & Event Hosts", "DJs & Musicians", "Promotional Staff", "Mascot Performers", "Brand Ambassadors"],
     image: "/WhatsApp Image 2026-03-27 at 13.37.50 (3).jpeg",
     imagePosition: "object-center",
