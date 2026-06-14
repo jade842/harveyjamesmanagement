@@ -80,7 +80,7 @@ export default function Projects() {
             href="/work"
             className="inline-block px-8 py-3.5 text-xs font-medium tracking-widest uppercase border border-[#D4B680] text-[#D4B680] hover:bg-[#D4B680] hover:text-[#111111] transition-all duration-200"
           >
-            View All Work
+            View Selected Work
           </Link>
           <a
             href="#contact"
