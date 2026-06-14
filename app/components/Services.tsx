@@ -29,7 +29,7 @@ const services = [
   {
     number: "06",
     title: "National Reach",
-    description: "Active delivery across WA, QLD, NSW, VIC and TAS — local market knowledge with genuine national capability, wherever your event takes us.",
+    description: "Active delivery across Australia — local market knowledge with genuine national capability, wherever your event takes us.",
   },
 ];
 
