@@ -11,7 +11,7 @@ export default function About() {
               <div className="absolute -top-3 -right-3 w-full h-full border border-[#D4B680]/40 pointer-events-none z-0" />
               <div className="relative z-10 overflow-hidden aspect-[3/4]">
                 <Image
-                  src="/ChatGPT Image Jun 12, 2026, 06_29_30 PM.png"
+                  src="/ChatGPT Image Jun 14, 2026, 06_36_18 PM.png"
                   alt="Jade Taylor, Founder & Principal of Harvey James Management"
                   fill
                   className="object-cover object-top"
