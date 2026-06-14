@@ -43,10 +43,10 @@ export default function About() {
               <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Delivered.</span>
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              Harvey James Management is a premium talent and event agency founded by Jade Taylor — with over 20 years across events, talent management and commercial strategy. Active nationally.
+              Harvey James Management is a premium talent and event agency founded by Jade Taylor, with over 20 years across events, talent management and commercial strategy. Active nationally.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
-              One team. One standard. From sourcing and contracting talent to full event production, bespoke curated experiences and complete onsite management — end to end, whatever the brief.
+              One team. One standard. From sourcing and contracting talent to full event production, bespoke curated experiences and complete onsite management, end to end, whatever the brief.
             </p>
             <a
               href="#contact"

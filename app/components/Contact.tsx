@@ -47,7 +47,7 @@ export default function Contact() {
             <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Your Next Event?</span>
           </h2>
           <p className="text-[#5a5248] text-lg leading-relaxed max-w-xl mx-auto">
-            Whether you have a detailed brief or just a vision — a curated gathering, a bespoke event, a personalised experience — tell us what you&apos;re imagining and we&apos;ll take it from there.
+            Whether you have a detailed brief or just a vision, tell us what you&apos;re imagining and we&apos;ll take it from there.
           </p>
         </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#1F1F1C] mb-2" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>Message Sent</h3>
-                  <p className="text-[#5a5248] text-sm">Thanks — we&apos;ll be in touch within 24 hours.</p>
+                  <p className="text-[#5a5248] text-sm">Thanks, we&apos;ll be in touch within 24 hours.</p>
                   <button onClick={() => setSubmitted(false)} className="mt-6 text-xs tracking-widest uppercase text-[#b89660] hover:text-[#D4B680] transition-colors">
                     Send Another
                   </button>

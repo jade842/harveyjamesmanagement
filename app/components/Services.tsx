@@ -4,17 +4,17 @@ const services = [
   {
     number: "01",
     title: "Talent Procurement",
-    description: "End-to-end sourcing of the right talent for your event — performers, hosts and specialists who match your brief precisely.",
+    description: "End-to-end sourcing of the right talent for your event: performers, hosts and specialists who match your brief precisely.",
   },
   {
     number: "02",
     title: "Fashion Events & Production",
-    description: "Full production and backstage management for fashion events — runway logistics, talent coordination and on-day execution.",
+    description: "Full production and backstage management for fashion events: runway logistics, talent coordination and on-day execution.",
   },
   {
     number: "03",
     title: "Personalised Curated Experiences",
-    description: "Bespoke experiences designed around your vision — exclusive gatherings, personalised occasions and private events, curated and delivered end to end.",
+    description: "Bespoke experiences designed around your vision: exclusive gatherings, personalised occasions and private events, curated and delivered end to end.",
   },
   {
     number: "04",
@@ -24,12 +24,12 @@ const services = [
   {
     number: "05",
     title: "Brand Activations",
-    description: "Talent solutions for brand activations and experiential campaigns — ambassadors, hosts and performers at any scale.",
+    description: "Talent solutions for brand activations and experiential campaigns: ambassadors, hosts and performers at any scale.",
   },
   {
     number: "06",
     title: "National Reach",
-    description: "Active delivery across Australia — local market knowledge with genuine national capability, wherever your event takes us.",
+    description: "Active delivery across Australia, with market knowledge with genuine national capability, wherever your event takes us.",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-[#a89f8c] text-sm leading-relaxed mb-8">
-              From a single talent booking to full event production — we scope each engagement to what you actually need.
+              From a single talent booking to full event production. We scope each engagement to what you actually need.
             </p>
             <a
               href="#contact"

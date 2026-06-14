@@ -31,7 +31,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-[#a89f8c] leading-relaxed mb-12 max-w-md">
-          We source, contract and manage talent across every category — for brand activations,
+          We source, contract and manage talent across every category: brand activations,
           sporting events, conferences, corporate experiences and more.
         </p>
 
