@@ -2,12 +2,9 @@ import Nav from "@/app/components/Nav";
 import Hero from "@/app/components/Hero";
 import About from "@/app/components/About";
 import Services from "@/app/components/Services";
-import LogoDivider from "@/app/components/LogoDivider";
-import Events from "@/app/components/Events";
 import Talent from "@/app/components/Talent";
+import LogoDivider from "@/app/components/LogoDivider";
 import Projects from "@/app/components/Projects";
-import Approach from "@/app/components/Approach";
-import VideoShowreel from "@/app/components/VideoShowreel";
 import Testimonials from "@/app/components/Testimonials";
 import Gallery from "@/app/components/Gallery";
 import Contact from "@/app/components/Contact";
@@ -21,12 +18,9 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
-        <Events />
         <Talent />
         <LogoDivider dark={true} />
         <Projects />
-        <Approach />
-        <VideoShowreel />
         <Testimonials />
         <Gallery />
         <Contact />

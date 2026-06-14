@@ -26,6 +26,11 @@ const services = [
     title: "Brand Activations",
     description: "Talent solutions for brand activations and experiential campaigns — ambassadors, hosts and performers at any scale.",
   },
+  {
+    number: "06",
+    title: "National Reach",
+    description: "Active delivery across WA, QLD, NSW, VIC and TAS — local market knowledge with genuine national capability, wherever your event takes us.",
+  },
 ];
 
 export default function Services() {
