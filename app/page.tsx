@@ -19,7 +19,6 @@ export default function Home() {
         <About />
         <Services />
         <Talent />
-        <LogoDivider dark={true} />
         <Projects />
         <Testimonials />
         <Gallery />
