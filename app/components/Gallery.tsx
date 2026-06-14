@@ -61,7 +61,7 @@ const images = [
 
 export default function Gallery() {
   return (
-    <section className="bg-[#1F1F1C] py-12 overflow-hidden">
+    <section className="bg-[#F4F0E4] py-12 overflow-hidden">
       <div className="inline-flex gap-3 animate-marquee whitespace-nowrap">
         {[...images, ...images].map((img, i) => (
           <div
