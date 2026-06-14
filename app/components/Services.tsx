@@ -35,7 +35,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 bg-[#1F1F1C]">
+    <section id="services" className="py-20 bg-[#1F1F1C]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-[1fr_2fr] gap-16 items-start">
 
@@ -48,7 +48,7 @@ export default function Services() {
               </span>
             </div>
             <h2
-              className="text-4xl lg:text-5xl font-bold text-[#F4F0E4] mb-6"
+              className="text-5xl lg:text-7xl font-bold text-[#F4F0E4] mb-6"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Our Services

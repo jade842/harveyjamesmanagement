@@ -10,21 +10,6 @@ const testimonials = [
     context: "Talent, Tasmania",
   },
   {
-    quote: "Working with Jade and the Harvey James team has been an outstanding experience. Her professionalism, dedication and genuine investment in her talent sets her apart. I look forward to a long and successful partnership.",
-    name: "Prince I",
-    context: "Talent, Perth",
-  },
-  {
-    quote: "Harvey James Management has opened doors I didn't anticipate and handled every opportunity with care and professionalism. The team is genuinely invested in your success — warm, considered and a pleasure to work with at every stage.",
-    name: "Saul P",
-    context: "Talent, Perth",
-  },
-  {
-    quote: "Jade communicates with clarity and integrity — always transparent, always responsive. A refreshing standard of professionalism in this industry.",
-    name: "Riley N",
-    context: "Talent, Tasmania",
-  },
-  {
     quote: "One of Jade's greatest strengths is her approachability — she is always accessible and prompt to respond. I no longer feel the need to accompany my daughter to events when Jade or her team are present. That level of trust is not easily earned.",
     name: "Belinda M",
     context: "Perth, on behalf of Alana M",
@@ -33,7 +18,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-32 bg-[#1F1F1C] relative overflow-hidden">
+    <section className="py-20 bg-[#1F1F1C] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,182,128,0.05)_0%,transparent_70%)]" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -46,7 +31,7 @@ export default function Testimonials() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-bold text-[#F4F0E4]"
+            className="text-5xl lg:text-7xl font-bold text-[#F4F0E4]"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             What Our Clients

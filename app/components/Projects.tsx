@@ -59,7 +59,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-32 bg-[#1F1F1C]">
+    <section id="projects" className="py-20 bg-[#1F1F1C]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
         <div className="text-center mb-14">
@@ -71,7 +71,7 @@ export default function Projects() {
             <div className="h-px w-8 bg-[#D4B680]" />
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-bold text-[#F4F0E4]"
+            className="text-5xl lg:text-7xl font-bold text-[#F4F0E4]"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
             Work That Speaks
@@ -82,7 +82,7 @@ export default function Projects() {
 
         <div className="divide-y divide-[#D4B680]/15">
           {projects.map((project) => (
-            <div key={project.title} className="group py-12 grid md:grid-cols-[1fr_auto] gap-8 items-start">
+            <div key={project.title} className="group py-8 grid md:grid-cols-[1fr_auto] gap-8 items-start">
               {/* Text + categories */}
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">

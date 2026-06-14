@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-32 bg-[#F4F0E4] relative overflow-hidden">
+    <section id="about" className="py-20 bg-[#F4F0E4] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: headshot */}
@@ -35,23 +35,17 @@ export default function About() {
               </span>
             </div>
             <h2
-              className="text-4xl lg:text-5xl font-bold text-[#1F1F1C] mb-6 leading-tight"
+              className="text-5xl lg:text-7xl font-bold text-[#1F1F1C] mb-6 leading-tight"
               style={{ fontFamily: "var(--font-poppins), sans-serif" }}
             >
               Talent & Event Solutions,
               <br />Delivered End to End
             </h2>
             <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              Harvey James Management is a premium talent and event agency founded by Jade Taylor — with over 20 years across business operations, events, talent management and commercial strategy. Built on genuine industry relationships and a commitment to getting every detail right.
-            </p>
-            <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              What sets HJM apart is its full-circle model — talent, production and experience handled by one team, to one standard. We specialise in sourcing, contracting and managing talent across every category for major sporting events, brand activations, fashion events and corporate experiences, with active delivery across WA, QLD, NSW, VIC and TAS.
-            </p>
-            <p className="text-[#5a5248] text-base leading-relaxed mb-5">
-              For select clients, we go further — taking full ownership of events, backstage production, bespoke curated experiences and complete onsite talent management. One point of contact, from concept through to flawless on-site execution.
+              Harvey James Management is a premium talent and event agency founded by Jade Taylor — with over 20 years across events, talent management and commercial strategy. Active nationally across WA, QLD, NSW, VIC and TAS.
             </p>
             <p className="text-[#5a5248] text-base leading-relaxed mb-8">
-              Jade also serves as Board Member & Runway Producer for the Tasmanian Fashion Festival — bringing board-level governance and hands-on creative delivery to one of Australia's most distinctive regional fashion events.
+              One team. One standard. From sourcing and contracting talent to full event production, bespoke curated experiences and complete onsite management — end to end, whatever the brief.
             </p>
             <a
               href="#contact"
