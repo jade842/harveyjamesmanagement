@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "Luxury Experience Producer — Member Events",
     scope: "Curated a portfolio of high-end member experiences for one of the world's most prestigious financial card programmes — from corporate boxes at the Bledisloe Cup to annual Penfolds Grange dinners and luxury supercar drive days. Each experience conceived, produced and delivered end-to-end with the discretion and finish the clientele demand.",
     talentCategories: ["Luxury Experience Design", "Corporate Hospitality", "VIP Management", "Supplier Curation", "On-Site Execution"],
-    image: "/On memory 2021 flowers.jpg",
+    image: "/ChatGPT Image Jun 14, 2026, 06_36_18 PM.png",
     imagePosition: "object-center",
   },
   {
