@@ -63,7 +63,7 @@ export default function Hero() {
       {/* Right — image */}
       <div className="hidden lg:block lg:w-1/2 relative">
         <Image
-          src="/IMG_8797 (2).jpg"
+          src="/Jypsea 76.jpg"
           alt="Harvey James Management"
           fill
           className="object-cover object-center"
