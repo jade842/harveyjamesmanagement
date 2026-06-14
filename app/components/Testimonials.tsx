@@ -1,8 +1,8 @@
 const testimonials = [
   {
     quote: "Your contributions were essential in creating the environment that made our event such a success. Without your insight and attention to detail, we would not have received such exceptional feedback from attendees. We particularly valued your composure when navigating challenges behind the scenes — you consistently achieved the best outcome with poise, professionalism and style.",
-    name: "Company Owners",
-    context: "Corporate Event",
+    name: "Client",
+    context: "Queensland",
   },
   {
     quote: "The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring everyone feels heard and valued.",
