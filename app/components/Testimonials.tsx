@@ -5,7 +5,7 @@ const testimonials = [
     context: "Corporate Event",
   },
   {
-    quote: "Harvey James offers an authentic pathway unlike any other agency I have encountered. The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring everyone feels heard and valued.",
+    quote: "The level of personal attention is exceptional — Jade takes the time to genuinely connect, ensuring everyone feels heard and valued.",
     name: "Amanda G",
     context: "Tasmania",
   },
