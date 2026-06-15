@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function Contact() {
-  const email = "jade@harveyjamesmanagement.com.au";
+  const email = "jade@harveyjames.agency";
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
