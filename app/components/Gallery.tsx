@@ -26,6 +26,8 @@ const images = [
   { src: "/Harvey-James-Workshop  (38) (4) (1).jpg", alt: "Harvey James Workshop", aspect: "w-64" },
   { src: "/Loic 6 (1).jpg", alt: "Model", aspect: "w-48" },
   { src: "/CalHadaway_Riv_HarveyJames_2021 (3) (3) (1).jpg", alt: "Harvey James Management", aspect: "w-64" },
+  { src: "/Solomon Islands Campaign 2016.jpg", alt: "Solomon Islands Tourism Campaign", aspect: "w-72" },
+  { src: "/385_HiRes.jpg", alt: "Tasmanian Wedding Expo", aspect: "w-56" },
 ];
 
 export default function Gallery() {

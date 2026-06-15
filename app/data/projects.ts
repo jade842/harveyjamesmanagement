@@ -45,6 +45,15 @@ export const projects = [
     imagePosition: "object-center",
   },
   {
+    tags: ["Tourism Campaign", "International", "Editorial"],
+    title: "Solomon Islands Tourism Campaign",
+    subtitle: "Model & Talent Producer — International Destination Campaign",
+    scope: "Produced and managed the talent placement for a Solomon Islands Tourism Authority destination campaign, sourcing and sending two models internationally for an editorial and campaign shoot on location. End-to-end talent management including casting, contracting, travel coordination and on-the-ground liaison. The resulting imagery was used across major tourism marketing and promotional channels to drive destination awareness.",
+    talentCategories: ["Fashion Models", "Casting", "International Talent Placement", "Contract Management", "Campaign Production"],
+    image: "/Solomon Islands Campaign 2016.jpg",
+    imagePosition: "object-center",
+  },
+  {
     tags: ["Racing", "Event Production"],
     title: "Tasmanian Racing Club",
     subtitle: "Event Producer — Year-Round Retainer",
