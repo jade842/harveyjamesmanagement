@@ -42,9 +42,9 @@ export default function Contact() {
             className="text-5xl lg:text-7xl font-bold text-[#1F1F1C] mb-4 leading-tight"
             style={{ fontFamily: "var(--font-poppins), sans-serif" }}
           >
-            Ready to Elevate
+            Ready to Elevate Your
             <br />
-            <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Your Next Event?</span>
+            <span style={{ fontFamily: "var(--font-audrey), serif", fontWeight: "400", color: "#c4a660" }}>Event or Campaign?</span>
           </h2>
           <p className="text-[#5a5248] text-lg leading-relaxed max-w-xl mx-auto">
             Whether you have a detailed brief or just a vision, tell us what you&apos;re imagining and we&apos;ll take it from there.
