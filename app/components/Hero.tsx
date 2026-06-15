@@ -66,7 +66,7 @@ export default function Hero() {
           src="/20260321-20 (2).JPG"
           alt="Harvey James Management"
           fill
-          className="object-cover object-center"
+          className="object-cover object-[center_30%]"
           priority
           sizes="50vw"
         />
