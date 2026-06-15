@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function Contact() {
   const email = "jade@harveyjames.agency";
+  const emailGeneral = "hello@harveyjames.agency";
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -155,6 +156,10 @@ export default function Contact() {
               </div>
               <a href={`mailto:${email}`} className="text-[#1F1F1C] text-sm font-medium hover:text-[#b89660] transition-colors break-all">
                 {email}
+              </a>
+              <br />
+              <a href={`mailto:${emailGeneral}`} className="text-[#1F1F1C] text-sm font-medium hover:text-[#b89660] transition-colors break-all">
+                {emailGeneral}
               </a>
             </div>
 
