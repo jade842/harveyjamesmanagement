@@ -33,7 +33,7 @@ export const projects = [
     scope: "A curated three-day Sydney incentive trip for Mitre 10's top-tier clients, designed to reward and retain their most valuable relationships. Full pre-production, detailed run sheets and complete on-site execution across all three days. Highlights included a private roaming degustation at Icebergs, Bondi, and a Sydney Harbour BridgeClimb at sunset. Every touchpoint managed end-to-end: limousine transfers, accommodation liaising, restaurant bookings, gift curation and bespoke programming tailored to the group.",
     talentCategories: ["Incentive Experience Design", "Pre-Production", "Logistics", "VIP Coordination", "On-Site Management"],
     image: "/CM10 Tradeshow BTS 2016.PNG",
-    imagePosition: "object-center",
+    imagePosition: "object-center scale-150",
   },
   {
     tags: ["Wedding Expo", "Fashion", "10 Years"],
